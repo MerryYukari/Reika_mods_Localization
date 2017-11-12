@@ -630,92 +630,116 @@
 			The villagers have tried - and abjectly failed - to learn to manipulate crystal energy.
 		</desc>
 	</villagecasting>
-	<name>
+	<anystruct>
 		<title>
-
+			Buried Ruins
 		</title>
 		<hint>
-
+			From cobblestone squares to ancient mines, it appears some have come before you; have they left anything else?
 		</hint>
 		<reveal>
-
+			Yes, including their attempts to learn the same things you now attempt.
 		</reveal>
-	</name>
-	<name>
+		<desc>
+			Buried structures, clearly of artificial origin
+		</desc>
+	</anystruct>
+	<focuscrystal>
 		<title>
-
+			Refractory Gems
 		</title>
 		<hint>
-
+			You have thought of a way to increase the power of your fabrication constructs, but what to use as a refractor?
 		</hint>
 		<reveal>
-
+			Who would have thought THEY had found the key...
 		</reveal>
-	</name>
-	<name>
+		<desc>
+			Crude 'refining' of emeralds into a useful construct
+		</desc>
+	</focuscrystal>
+	<artefact>
 		<title>
-
+			Mysterious Relics
 		</title>
 		<hint>
-
+			All around the world linger remnants of...something.
 		</hint>
 		<reveal>
-
+			Including particularly mysterious - and dangerous - ones found in certain regions.
 		</reveal>
-	</name>
-	<name>
+		<desc>
+			A strange buried artifact, surely possessing secrets
+		</desc>
+	</artefact>
+	<tower>
 		<title>
-
+			Glowing Towers
 		</title>
 		<hint>
-
+			The pylons are not the only luminous constructs you find around the world.
 		</hint>
 		<reveal>
-
+			The purpose these obelisks serve is a entirely unknown, but they must be key to something.
 		</reveal>
-	</name>
-	<name>
+		<desc>
+			An ancient structure, topped with a luminescent...something.
+		</desc>
+	</tower>
+	<blowrepeater>
 		<title>
-
+			Lumen Overload
 		</title>
 		<hint>
-
+			These wooden lumen foci seem to work quite well...
 		</hint>
 		<reveal>
-
+			...Except when they explode trying.
 		</reveal>
-	</name>
-	<name>
+		<desc>
+			Wooden repeaters might have been a mistake
+		</desc>
+	</blowrepeater>
+	<chargecrystal>
 		<title>
-
+			Lumen Storage II
 		</title>
 		<hint>
-
+			A storage crystal is little more than a pretty rock without a way to put the energy into it.
 		</hint>
 		<reveal>
-
+			As is usual, a simple problem has a simple - and spinny - solution.
 		</reveal>
-	</name>
-	<name>
+		<desc>
+			Putting energy into a storage crystal
+		</desc>
+	</chargecrystal>
+	<structcheat>
 		<title>
-
+			Finding a shortcut
 		</title>
 		<hint>
-
+			You may have the means to attempt to bypass the strange structures you find.
 		</hint>
 		<reveal>
-
+			With disastrous results. Whoever designed those structures is clearly more resourceful than you are.
 		</reveal>
-	</name>
-	<name>
+		<desc>
+			Or not.
+		</desc>
+	</structcheat>
+	<voidmonster>
 		<title>
-
+			Below the world lurks a...THING.
 		</title>
 		<hint>
-
+			Exactly what that thing is, remains unknown.
 		</hint>
 		<reveal>
-
+			A thing that must now be destroyed after what it has done to you.
 		</reveal>
-	</name>
+		<desc>
+			Death by amorphous evil
+		</desc>
+	</voidmonster>
 </progression>

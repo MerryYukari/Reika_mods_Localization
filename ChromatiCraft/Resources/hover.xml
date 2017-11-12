@@ -48,6 +48,12 @@
 	<ore_spacerift>
 		This material might provide a key to being able to relocate oneself at will.
 	</ore_spacerift>
+	<ore_rainbow>
+		Refractory gems are embedded in this stone. Maybe they can be used to help focus the energy from pylons.
+	</ore_rainbow>
+	<ore_avolite>
+		These crystals glow with energy. They can probably act as a reservoir for it.
+	</ore_avolite>
 	<plant_flower>
 		This gently glowing flower seems to weakly radiate energy; if extracted, its contents likely are crucial in maintaining an aura.
 	</plant_flower>
@@ -90,6 +96,12 @@
 	<flower_flowivy>
 		Growing like a weed, this fast-spreading ivy is almost nature incarnate.
 	</flower_flowivy>
+	<flower_glowdaisy>
+		Lighting the floor underneath the cliffs, these glowing flowers sparkle, and may serve as more than mere decoration.
+	</flower_glowdaisy>
+	<flower_glowroot>
+		Hanging down from the rock above, these vines both light the darkness and occasionally drop seeds which have...interesting effects on nearby plant life.
+	</flower_glowroot>
 	<dyeleaf>
 		Brightly hued leaves cover this tree, and it appears that berries sprout from the twigs.
 	</dyeleaf>
@@ -99,9 +111,9 @@
 	<dimensioncore>
 		Vibrantly hued and energetically luminous, this...thing is of obvious value.
 	</dimensioncore>
-	<name>
-	
-	</name>
+	<hive>
+		A beehive. Underground. In that case, the bees inside are probably somewhat unusual, and perhaps even valuable. One would expect that a fabric cup would not exactly suffice for obtaining it.
+	</hive>
 	<name>
 	
 	</name>

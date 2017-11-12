@@ -37,7 +37,7 @@
 		Mounting a crystal shard on a base of some other material creates a stylish light whose variability allows it to be put in any home.
 	</glow>
 	<relay>
-		Not all your constructs draw directly from the repeater network. Others, notably those that tend to be used in groups, seem to draw via relays that transmit from a central source - which does draw from the pylons - and bounce from relay to relay - as long as there is a clear line of sight - to the target block. Conveniently, this also allows you to use some of these constructs underground, where getting lumen energy beams in is rather difficult. There is a range limit, of %d meters per jump.
+		Not all your constructs draw directly from the repeater network. Others, notably those that tend to be used in groups, seem to draw via relays that transmit from a central source - which does draw from the pylons - and bounce from relay to relay - as long as there is a clear line of sight - to the target block. Conveniently, this also allows you to use some of these constructs underground, where getting lumen energy beams in is rather difficult. There is a range limit, of %d meters per jump, and each relay will need its input side set.
 	</relay>
 	<path>
 		Imbued with the energy of motion, travel path accelerates your ability to traverse the ground, often to surpising velocities. Just don't try crouching while you do so, as you might tumble uncontrollably.
@@ -51,9 +51,9 @@
 	<door>
 		Keeping creatures out of your house is proving more difficult than you would like. You had a nice door crafted from oak, but two hits from a zombie and you had unwanted guests. Sure, you could make iron doors, but they are expensive, unsightly, and will force you to endure the clanging noise as zombies ineffectually try to demolish it. A more visually ethereal - yet still impenetrable - design would be wonderful.
 	</door>
-	<altar>
-		Continuing your endeavour to create fancy lighting, you decided to make an altar-like crystal flame. Not only does it glow and pulsate various colors, but it also gives off colored particles and fog, making for quite an impressive display.
-	</altar>
+	<coloraltar>
+		Continuing your endeavour to create fancy lighting, you decided to make an altar-like crystal flame. Not only does it glow and pulsate various colors, but it also gives off colored particles and fog, making for quite an impressive display of energy...Probably enough so that putting several of these in proximity is a bad idea.
+	</coloraltar>
 	<glass>
 		When you look at glass, your first thought is that it is too clear, too inert. Spurred by this, you have created glass from crystals, that is strongly tinted, and which serves better as a musical instrument than a window.
 	</glass>
@@ -63,9 +63,21 @@
 	<selectiveglass>
 		Every night your house becomes surrounded by mobs, and they often manage to last long enough into the morning that you find yourself spending all your time cowering indoors. Sure, you could try and make a run for it, but half the time a leaf bomb is hiding around the corner, taking out the front half of your house the moment you step outside. You need a way to be able to kill them while still inside, without giving them the reciprocal ability.
 	</selectiveglass>
-	<altar>
-		Put some crystals and stone together, and you get a light source with an impressive display of energy...Probably enough so that putting several of these in proximity is a bad idea.
-	</altar>
+	<avolamp>
+		Pretty is a function. And to that end, you have a lamp. But not just any lamp! It glows! And bobs up and down! And spins! And this one you did not have to steal from villagers, either. After all, thievery is an indictment of your character, and will you really be able to enjoy something if you acquired it by theft?
+	</avolamp>
+	<repeaterlamp>
+		Repeaters, in their various forms, make for good light sources, and some would look quite nice integrated into the structure of your base. However, you would rather avoid the issue of routing energy randomly throughout, so you should probably find a way to neutralize their energy-carrying capabilities first.
+	</repeaterlamp>
+	<redstonepod>
+		You had a roomful of machines, producing, processing, and refining your resources. Emphasis on HAD, past tense, because your coolant ran out and now you have a roomful of craters instead. Said machines can be redstone-controlled, but you lack the ability to send such a signal through a mess of fluid and energy pipes. Some sort of point-to-point air-based conduction would solve that problem.
+	</redstonepod>
+	<chunkloader>
+		There are few things more frustrating than spending an hour or more in that new world, nearly completing a puzzle or finding rare resources, only for someone else to trigger a massive disturbance back home, causing you to be violently ejected, and, upon return, to find a fresh world with no sign of your previous progress or the expensive constructs you left on the ground. These crystals, however, might help stabilize the world, if perhaps temporarily. Taken back home, they lose that ability, but remain a nice decoration.
+	</chunkloader>
+	<fakesky>
+		Some things - at times understandably, at times infuriatingly - do not function well if shielded from the sky. You COULD punch a 1x1 hole all the way down into your cave, or through the massive stone arch over your base, but that would look stupid and potentially invite unwanted visitors. If you could instead bring the sky - or some part of it - with you, that would solve the issue.
+	</fakesky>
 	<name>
 		
 	</name>
