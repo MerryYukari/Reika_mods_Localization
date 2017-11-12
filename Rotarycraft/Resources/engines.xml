@@ -24,7 +24,7 @@
 			Power Source: Wind
 			Requires Consumables: No
 			Risks: Spinning Blades
-			Notes: Requires 16 blocks of free space in front of the blades, optimal efficiency at 128 m altitude
+			Notes: Requires 16 blocks of free space in front of the blades, optimal efficiency at 80+ m altitude
 		</note>
 	</wind>
 	<steam>
@@ -62,7 +62,7 @@
 			Speed: %d rad/s
 			Power: %.3fkW
 			Power Source: Redstone Clock and Magnetized Shaft Core
-			Requires Consumables: No
+			Requires Consumables: Shaft Core Magnetization
 			Risks: None
 		</note>
 	</ac>

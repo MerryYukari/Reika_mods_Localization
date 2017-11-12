@@ -110,6 +110,7 @@
 			Max Speed: %d rad/s
 			Max Torque: %d Nm
 			Risks: Blade breakage due to collisions with objects
+			Turbines require lubrication
 		</note>
 	</turbinecore>
 	<pebblebed>
@@ -283,7 +284,7 @@
 	</storage>
 	<reflector>
 		<desc>
-			The neutron reflector has a chance of reflecting neutrons back in the direction from which they impacted the reflector. This allows for greater reactor efficiency by reusing a portion of the neutrons. Unreflected neutrons are absorbed.
+			The neutron reflector has a chance of reflecting neutrons back in the direction from which they impacted the reflector. This allows for greater reactor efficiency by reusing a portion of the neutrons. Unreflected neutrons have a chance to be absorbed.
 		</desc>
 		<note>
 
@@ -341,7 +342,7 @@
 	</diffuser>
 	<thorium>
 		<desc>
-			Thorium reactor cores use molten thorium fuel salts to generate electricity. Rather unique compared to other fission reactors, they are not self-sufficient and require neutron flux in order to start. Additionally, the temperature-dependent neutron fertility means that as the temperature rises, they become less reactive, as a natural safeguard. The thorium fuel cycle also produces less waste than that of uranium.
+			Thorium reactor cores use molten thorium fuel salts (Thorium-enriched FLiBe) to generate electricity. Rather unique compared to other fission reactors, they are not self-sufficient and require heat and neutron flux in order to start. Additionally, the temperature-dependent neutron fertility means that as the temperature rises, they become less reactive, as a natural safeguard. The thorium fuel cycle also produces less waste than that of uranium.
 		</desc>
 		<note>
 
@@ -352,7 +353,48 @@
 			In the event of exceeding a critical temperature of %dC, a thorium reactor will trigger an emergency fuel dump in order to avoid a meltdown. This can cause a radiation leak, and is to be avoided if possible.
 		</desc>
 		<note>
-
+			Placed below the fuel column, and will trigger automatically to perform a dump
 		</note>
 	</fueldump>
+	<solartop>
+		<desc>
+			The %s allows you to use molten sodium instead of water in the solar tower, which greatly increases its power output and efficiency.
+		</desc>
+		<note>
+			Two units must be stacked on top of the tower to function
+		</note>
+	</solartop>
+	<solar>
+		<desc>
+			The %s allows you to get hot molten sodium out of a solar plant instead of direct shaft power. Though this is more complex, the power output is substantially larger.
+		</desc>
+		<note>
+			Placed below the tower column
+			Requires %dW at %d rad/s
+		</note>
+	</solar>
+	<name>
+		<desc>
+			
+		</desc>
+		<note>
+			
+		</note>
+	</name>
+	<name>
+		<desc>
+			
+		</desc>
+		<note>
+			
+		</note>
+	</name>
+	<name>
+		<desc>
+			
+		</desc>
+		<note>
+			
+		</note>
+	</name>
 </machines>
