@@ -2,119 +2,120 @@
 <machines>
 	<processor>
 		<desc>
-			The uranium processor dissolves fluorite in water to make hydrofluoric acid, and then dissolves raw uranium in the acid to make uranium hexafluoride gas. This gas is used in the uranium enrichment process.
+			铀处理机将萤石(氟化钙)溶于水形成氢氟酸, 然后将生铀锭溶于氢氟酸形成六氟化铀(UF6)气体. 六氟化铀气体稍后将会用于铀富集过程.
 		</desc>
 		<note>
-			Does not require power
-			Requires a water supply
+			不需要功率
+			需要供水
 		</note>
 	</processor>
 	<centrifuge>
 		<desc>
-			The isotope centrifuge uses a very high rotational speed to separate the different isotopes of uranium, and will produce a mixture of depleted uranium dust and enriched uranium dust. The latter is far less common due to the rarity of U235.
+			同位素离心机依靠极高速的旋转来分离铀的不同同位素, 它会产生贫铀粉和富集铀粉. 鉴于U-235的稀有性, 后者产量会很小.
 		</desc>
 		<note>
-			Minimum Speed: %d rad/s
-			Power Input: Bottom
-			UF6 Input: Top
+			最低转速: %d rad/s
+			动力输入: 底部
+			UF6输出: 顶部
 		</note>
 	</centrifuge>
 	<electrolyzer>
 		<desc>
-			The electrolyzer uses electrical discharges to decompose materials into their constituents, such as salt into sodium and chlorine or water into hydrogen and oxygen. The heavier of the products is drawn from the bottom, while the lighter is drawn from the top. Note that solids must be melted down before they are able to be processed.
+			电解机使用电力来使化合物解离为它的组成成分, 比如将盐电解为钠和氯, 将水电解为氢和氧. 比较重的产物从底部输出, 轻的产物从顶部输出. 注意固体必须要先被熔化然后才能电解.
 		</desc>
 		<note>
-			Power to electrolyze salt: %dW
-			Power Input: Any horizontal side
-			Required temperature to melt salt: %dC
+			电解盐需要的功率: %dW
+			动力输入: 任意水平面
+			熔化盐需要的温度: %dC
 		</note>
 	</electrolyzer>
 	<synthesizer>
 		<desc>
-			The synthesizer is used to make ammonia, which is a more effective working fluid in reactors than water. To do this, it requires water, ammonium chloride, and quicklime.
+			合成器用来制作氨气, 这是一种比水更高效的工作流体. 为了生产氨气, 它需要水, 氯化铵和生石灰.
 		</desc>
 		<note>
-			Ammonia Synthesis Temperature: %dC
+			氨气合成温度: %dC
 		</note>
 	</synthesizer>
 	<tritizer>
 		<desc>
-			The neutron irradiation chamber converts deuterium to tritium by bombarding it with neutrons. This machine is placed in the core of a reactor, where it will absorb some neutrons that hit it and convert the stored deuterium.
+			中子辐射仓通过用中子轰击氘来生产氚. 这个机器需要放反应堆核心中, 在那里它就能吸收一些中子来转化它里面储存的氘.
 		</desc>
 		<note>
-			Deuterium Input: Top
-			Tritium Output: Bottom
+			氘输入: 顶部
+			氚输出: 底部
 		</note>
 	</tritizer>
 	<condenser>
 		<desc>
-			The condenser will recollect steam blocks and convert it back into liquid for reuse in the nuclear reactor. Because the pressure is extremely low, this liquid must be repressurized before it can be used. While it may not be terribly economical to reclaim water-based steam, ammonia is sufficiently expensive that reclamation is well worth the cost.
+			冷凝器能将蒸汽方块收集起来然后转化成水以便反应堆重新利用. 鉴于压力实在是太低, 收集到的水必须重新加压才能使用. 所以收集水蒸气实在不是什么经济的做法, 而氨气的高价格让它们有了回收的价值.
 		</desc>
 		<note>
-			Liquid Output: Top
+			流体输出: 顶部
 		</note>
 	</condenser>
 	<exchanger>
 		<desc>
-			The heat exchanger takes hot fluid in the top and cools it down, transferring the fluid's heat into any adjacent machinery, including standard boilers. This machine requires power to force the fluid through, and the fluid can be drawn out the sides.
+			热交换机从顶部接受高温流体并将它们冷却, 同时将流体的热量传递到相邻的机器中, 比如标准的锅炉. 这机器需要动力来强迫流体流动, 同时流体能从侧面被抽出.
 		</desc>
 		<note>
-			Power Input: Bottom:
-			Required Power: %dW
-			Required Speed: %d rad/s
+			动力输入: 底部
+			需求功率: %dW
+			需求转速: %d rad/s
 		</note>
 	</exchanger>
 	<boiler>
 		<desc>
-			The boiler absorbs heat from the surrounding machines and uses it to boil the internal liquid into steam. Note that if the steam is not drawn away and allowed to accumulate, the boiler will eventually lose the ability to boil more liquid and fail to draw away heat from the reactor. This usually results in a meltdown. Also, if the temperature rises above %dC when the boiler is full of ammonia, the ammonia will ignite and detonate.
+			锅炉从周围的机器里吸收热量来煮沸内部容器中的流体. 注意, 如果蒸汽没有被抽走并堆积在锅炉内部的话, 锅炉就会失去煮沸流体的能力, 同时也不会再从反应堆中吸收热量. 这通常导致反应堆熔毁. 另外, 如果锅炉内部充满氨气并且温度上升到%dC以上的时候, 氨气将会爆炸.
 		</desc>
 		<note>
-			Liquid Input: Bottom:
-			Steam Output: Top
+			流体输入: 底部
+			蒸汽输出: 顶部
 		</note>
 	</boiler>
 	<pump>
 		<desc>
-			The pressurizer repressurizes the low-pressure water or ammonia so that it can be reused in the reactor, thus completing the thermodynamic cycle. Note that this is a centrifugal compressor.
+			稳压器将低压水和氨气加压以便反应堆重新使用, 同时也完成整个热动力循环. 注意这其实是个离心压缩机
 		</desc>
 		<note>
-			Minimum Power: %dW
-			Minimum Torque: %d Nm
-			Liquid Input: Top
-			Liquid Output: Side
-			Power Input: Bottom
+			最小功率: %dW
+			最小扭矩: %d Nm
+			流体输入: 顶部
+			流体输出: 侧面
+			动力输入: 底部
 		</note>
 	</pump>
 	<grate>
 		<desc>
-			The steam grate takes in steam from steam lines and releases it into the world. The steam will then rise until it hits a blockage, where it will spread out. Ideally, the steam should rise directly into a turbine so that its energy can be extracted.
+			蒸汽壁炉从蒸汽管道中抽取蒸汽并将蒸汽释放到世界中. 蒸汽方块将会持续上升知道它碰到阻拦物, 然后会四下扩散. 理想状态下, 蒸汽方块应该直接通向涡轮机以便被利用起来.
 		</desc>
 		<note>
-			Steam Output: Top
-			Max Ouput: 1 block per tick (20 blocks/s)
+			蒸汽输出: 顶部
+			最大输出: 1 方块每tick (20 方块/s)
 		</note>
 	</grate>
 	<steamline>
 		<desc>
-			Steam lines transport the steam away from the reactor to a turbine. Note that the steam line has an infinite capacity and thus breaking it may result in a loss of a large amount of stored energy.
+			蒸汽管道将蒸汽从反应堆里面运送到涡轮机处. 注意蒸汽管道的容量是无限的, 所以敲掉一节可能会导致巨量的能量损失.
 		</desc>
 		<note>
-			Infinite capacity
+			无限容量
 		</note>
 	</steamline>
 	<turbinecore>
 		<desc>
-			The turbine extracts the energy from steam, which moves along its length. The turbine will gradually accelerate as it receives steam, and its torque will be proportional to the amount of steam flowing through. Note that turbines, especially if rotating rapidly, are extremely fragile. The turbine will not run if its blades are obstructed.
+			涡轮机从沿着它径向运动的蒸汽中提取能量. 涡轮机只要接收到蒸汽就会逐渐加速, 它的扭矩与流过的蒸汽的数量成比例. 注意涡轮机, 尤其是那些高速旋转的涡轮机, 是相当脆弱的. 涡轮机的叶片被阻挡时将不会工作.
 		</desc>
 		<note>
-			Max Speed: %d rad/s
-			Max Torque: %d Nm
-			Risks: Blade breakage due to collisions with objects
+			最大转速: %d rad/s
+			最大扭矩: %d Nm
+			风险: 扇叶与物体相撞的时候会损坏
+			涡轮需要润滑油
 		</note>
 	</turbinecore>
 	<pebblebed>
 		<desc>
-			The pebble bed reactor core is the fuel unit for a pebble bed reactor. Load it up with fuel pellets, and it will undergo spontaneous fission and generate heat. This heat is best transferred to a carbon dioxide heat exchanger.
+			球床堆核心是球床堆的燃料组件. 在里面填装燃料弹丸, 它就会开始自发的裂变反应同时产生热量. 这个热量最好用二氧化碳热交换器来接收.
 		</desc>
 		<note>
 
@@ -122,24 +123,24 @@
 	</pebblebed>
 	<co2heater>
 		<desc>
-			The CO2 Heat Exchanger absorbs heat from a pebble bed reactor and transfers it into the carbon dioxide pumped in. The hot carbon dioxide can be drawn out the top and fed into a heat exchanger.
+			二氧化碳(CO2)热交换器从球床堆中吸收热量并传递给泵入其中的二氧化碳. 热二氧化碳能从它的顶部抽取并运输到热交换器中.
 		</desc>
 		<note>
-			Must reach 800C to emit hot carbon dioxide
+			至少到达 800C 才能产生热二氧化碳
 		</note>
 	</co2heater>
 	<fuel>
 		<desc>
-			The fuel core stores the nuclear fuel and is the source of all nuclear reactions and heat generation. When loaded, the core will periodically emit neutrons, which can impact other fuel cores. If those cores are also loaded, there is a chance that they will undergo fission, releasing three more neutrons and some heat, and consume some fuel. They will also gradually accumulate waste, which will hamper their ability to undergo fission. If the fuel core gets too hot, it will begin smoking, releasing hydrogen gas, and will eventually melt and release large amounts of radiation.
+			燃料核心储存着核燃料, 是所有核反应和热量生成的源头. 当填装燃料后, 它会间歇性的辐射出中子, 这些中子会撞击到其他的燃料核心. 如果其他的燃料核心中也有核燃料, 那么它们也可能会发生裂变放出3个额外的中子并产生一些热量, 同时消耗一些燃料. 它们也会逐渐生成核废料, 这将干扰它们进行裂变的能力. 如果燃料核心过热, 就会开始冒烟, 释放氢气, 最终会熔毁并且放出巨量的辐射.
 		</desc>
 		<note>
-			Neutron Emission: Any horizontal direction
-			Max Temperature: %dC
+			中子辐射: 任意水平方向
+			最大温度: %dC
 		</note>
 	</fuel>
 	<control>
 		<desc>
-			The control rod allows you to manipulate the rate of a nuclear reaction by intercepting neutrons that could otherwise trigger more fission events. Control rods can be retracted or inserted - they are inserted by default - when commanded by a reactor CPU. They also can be dropped into place in the case of an emergency, a so-called "SCRAM" event.
+			通过拦截能触发裂变的中子, 控制棒允许你控制核反应的速度. 使用反应堆控制单元能让控制棒收回或者插入 - 他们默认是插入模式. 在紧急停堆的情况下它们也能完全插入.
 		</desc>
 		<note>
 
@@ -147,7 +148,7 @@
 	</control>
 	<coolant>
 		<desc>
-			Coolant cells draw away heat from the reactor. Note that this heat is essentially wasted, as it does not create any steam or useful energy. However, coolant cells are vital for distributing heat and stabilizing the temperature of larger reactors.
+			冷却单元能从反应堆中抽走热量. 这些热量其实浪费掉的, 因为不会产生一丁点的蒸汽或者可用的能量. 然而, 冷却单元分散热量和稳定温度的能力对于大型反应堆来说至关重要.
 		</desc>
 		<note>
 
@@ -155,43 +156,43 @@
 	</coolant>
 	<cpu>
 		<desc>
-			The reactor CPU can be used to manage the operation of a nuclear reactor. It allows you to manipulate each control rod individually, or all at once. It also will sense the temperature of the surroundings and will trigger a SCRAM if the temperature gets too high, preventing a meltdown. Note that much as in a real reactor, if the CPU loses power for any reason, the control rods will all fall into place, likely stopping the nuclear reaction.
+			反应堆控制单元用来管理反应堆的工作. 它允许你同时或者单个操作控制棒. 它同时也能感受周围的温度, 并在反应堆过热的时候触发紧急停堆来避免反应堆熔毁. 与现实中的反应堆类似, 当控制单元不论因为什么原因而失去能量来源的时候会自动完全插入控制棒来停止核反应.
 		</desc>
 		<note>
-			Power Per Control Rod: %dW
+			每根控制棒需要的功率: %dW
 		</note>
 	</cpu>
 	<breeder>
 		<desc>
-			The breeder reactor core behaves much like the normal fuel core, but can only accept breeder reactor fuel, and is the only type of reactor core that can be used in a breeder reactor. They heat up somewhat faster than normal uranium-fueled cores.
+			增殖反应堆燃料核心与普通反应堆燃料核心类似, 但是只能使用增殖反应堆燃料, 这也是唯一一种增殖堆能使用的燃料核心. 增殖反应堆升温速度比普通富集铀燃料反应堆要迅速.
 		</desc>
 		<note>
-			Neutron Emission: Any horizontal direction
-			Max Temperature: %dC
+			中子辐射: 任意水平方向
+			最大温度: %dC
 		</note>
 	</breeder>
 	<sodiumboiler>
 		<desc>
-			The sodium heater will, much like a steam boiler, accumulate heat from the surroundings and heat up liquid pumped through it. However, it only accepts molten sodium and will output hot molten sodium once its temperature reaches 300 degrees. This hot molten sodium is usable in a heat exchanger.
+			钠加热器与蒸汽锅炉类似, 也能从周围吸收热量来加热流过的液体. 然而它只能接受熔融钠并在温度高于300摄氏度时输出高温熔融钠. 高温熔融钠能用于热量交换器.
 		</desc>
 		<note>
-			Sodium Input: Bottom
-			Hot Sodium Output: Top
+			钠输入: 底部
+			高温钠输出: 顶部
 		</note>
 	</sodiumboiler>
 	<heater>
 		<desc>
-			The hydrogen preheater uses the beam from the heat ray to heat a mixture of deuterium and tritium into a plasma usable in the fusion reactor. Note that it must be contained in a proper heater unit multiblock structure, and must be in the path of a heat ray beam.
+			氢气预热器用热能光束来加热氘和氚的混合物, 并生成聚变反应堆能够使用的等离子. 它必须被包裹在加热单元多方块结构中, 也必须在热能光束的射线路径上.
 		</desc>
 		<note>
-			Plasma Temperature: %dC
-			Hydrogen Input: Any horizontal side
-			Plasma Output: Top
+			等离子温度: %dC
+			氢气输入: 任意水平面
+			等离子输出: 顶部
 		</note>
 	</heater>
 	<injector>
 		<desc>
-			The plasma injector actually injects the fusion plasma into the tokamak reactor. Note that it must be contained in a proper multiblock structure.
+			等离子注入器将聚变使用的等离子注入托卡马克反应堆. 它必须被包裹在正确的多方块结构中.
 		</desc>
 		<note>
 
@@ -199,25 +200,25 @@
 	</injector>
 	<magnet>
 		<desc>
-			The toroidal magnets are the main component of the tokamak reactor, and contain the plasma into a narrow beam in their center. In order to function properly, they must be placed and rotated correctly, and kept very cold.
+			环形磁铁是托卡马克反应堆的主要部件, 它将等离子压缩到它的中心形成一道狭长的射束. 为了保证它们正常工作, 它们必须要被正确地放置和旋转, 并且保持低温.
 		</desc>
 		<note>
-			Can not be placed on flat ground due to large size
+			因为体积太大所以不能放在平地上
 		</note>
 	</magnet>
 	<solenoid>
 		<desc>
-			The solenoid magnet is the other main component of the tokamak reactor. It bends the plasma beam into a circle, allowing it to be contained and to reach the critical density for fusion to take place. If this magnet is not functional, the plasma beam will shoot off in a random direction. The solenoid is another large multiblock, and requires power to rotate.
+			螺旋管磁铁是托卡马克反应堆的另一个主要部件. 它能将等离子束弯曲成圆形, 让等离子束的密度达到可以引发核聚变. 如果这个磁铁不工作, 等离子束将会向随机的方向发射. 螺线管磁铁是另一个大型多方块结构, 并且需要能量来旋转.
 		</desc>
 		<note>
-			Minimum Speed: %d rad/s
-			Minimum Torque: %d Nm
-			Maximum Speed: %d rad/s
+			最小转速: %d rad/s
+			最小扭矩: %d Nm
+			最大转速: %d rad/s
 		</note>
 	</solenoid>
 	<absorber>
 		<desc>
-			Neutron absorbers intercept neutrons and turn their kinetic energy into heat. Much like a heat exchanger, this heat can be transferred into adjacent machines.
+			中子吸收器能拦截中子并将它们的动能转化为热量. 与热交换器类似, 这些热量也能传递给周围的机器.
 		</desc>
 		<note>
 
@@ -225,7 +226,7 @@
 	</absorber>
 	<collector>
 		<desc>
-			The gas collector collects carbon dioxide from a furnace burning coal or wood. This carbon dioxide is used as the working fluid in high-temperature gas reactors.
+			气体收集器能从燃烧煤炭或者木材的熔炉中吸收二氧化碳. 这些二氧化碳是高温气体反应堆的工作介质.
 		</desc>
 		<note>
 
@@ -233,7 +234,7 @@
 	</collector>
 	<gaspipe>
 		<desc>
-			Gas Ducts are used to transport gas, and are made of clay so as not to react with corrosive gases like hydrofluoric acid and uranium hexafluoride.
+			气体导管用来运输气体, 它们由黏土制成所以不会与腐蚀性气体比如氢氟酸和六氟化铀反应.
 		</desc>
 		<note>
 
@@ -241,33 +242,33 @@
 	</gaspipe>
 	<magnetpipe>
 		<desc>
-			Magnetic containment pipes are used to transport extremely hot gases. They use a magnetic field to keep the contents away from the walls, as the pipe would otherwise melt. Note that an electrical charge must be applied to the pipe for it to work.
+			磁封管用来运输超高温气体. 它们使用磁场来让内容物远离管壁, 不然管道就会融化. 注意管道上必须带电才能正常工作.
 		</desc>
 		<note>
-			Requires charge from a Van De Graaff
+			需要来自范德格拉夫起电机的电荷
 		</note>
 	</magnetpipe>
 	<heavypump>
 		<desc>
-			Heavy water is a special type of water that contains deuterium in place of hydrogen. Deuterium is more dense than hydrogen and thus heavy water exists in small quantities at the bottom of large bodies of water. The heavy water extractor's purpose is to separate the heavy water from the normal water near the ocean floor. Due to heavy water's natural density, this can only occur in an ocean biome below y = 45, and the extractor will only function if it has at least 16 source blocks of water above it and it is surrounded on three other sides by water.
+			重水是一种氘原子取代氢原子的特殊水. 氘原子要比氢原子重一些, 所以重水会少量存在于大型水体的底层. 在海洋底层, 重水提取机能将重水从普通水中提取出来. 鉴于重水的密度更大, 重水提取机只能在海洋生物群系低于 y = 45的地方工作, 而且它的顶部必须要有16个水源方块, 三个侧面也要有水.
 		</desc>
 		<note>
-			Minimum Power: %dW
-			Minimum Torque: %d Nm
+			最小功率: %dW
+			最小扭矩: %d Nm
 		</note>
 	</heavypump>
 	<fluidextractor>
 		<desc>
-			The fluid extractor, when submerged in (and has at least three sides in contact with) a fluid, can centrifuge it and obtain trace quantities of another fluid that was mixed in. For example, heavy water can be centrifuged out of the bottom of oceans (below y=%d and with at least %dm of water above), or molten lithium can be skimmed off the surface of lava.
+			当流体萃取机被浸入(并且至少3面接触)一种流体的时候, 能够离心这种流体并从中获取混在里面的痕量其他流体. 例如海洋底部的重水 (低于 y=%d 并且至少保持顶部有 %dm 的水), 或者岩浆表面的熔融锂.
 		</desc>
 		<note>
-			Minimum Power: %dW
-			Minimum Torque: %d Nm
+			最小功率: %dW
+			最小扭矩: %d Nm
 		</note>
 	</fluidextractor>
 	<wastecontainer>
 		<desc>
-			The spent fuel container is the first disposal unit for nuclear waste. When placed in this container, the more radioactive nuclear waste with shorter half-lives will decay and generate heat and neutrons in the process. To keep the container cool, and to provide radiation shielding, it must be submerged underwater.
+			乏燃料容器是核废料的第一个处理单元. 当被放置在这个容器中时, 放射性高、半衰期短的核废料会衰变并且产生中子和热量. 为了保证容器的低温, 同时防止核泄漏, 这个容器必须被浸没于水下.
 		</desc>
 		<note>
 
@@ -275,7 +276,7 @@
 	</wastecontainer>
 	<storage>
 		<desc>
-			Longer-lived nuclear waste which will not decay in the spent fuel container must be placed in a waste disposal drum, where it may be safely stored underground indefinitely without risk of overheating or a radiation leak. Note that being in close proximity to a loaded container is still extremely dangerous. Waste with half-lives shorter than six years cannot be safely stored in this machine, as they generate too much heat.
+			长半衰期核废料在乏燃料容器中不会发生明显的衰变, 它们必须背收容在一个废料处理桶中, 然后被永远封存在地底免得发生过热或者核泄漏. 当心, 站在离废料桶太近的地方仍然是极度危险的. 半衰期短于6年的废料放在这个桶中也是不安全的, 因为它们产热过多.
 		</desc>
 		<note>
 
@@ -283,7 +284,7 @@
 	</storage>
 	<reflector>
 		<desc>
-			The neutron reflector has a chance of reflecting neutrons back in the direction from which they impacted the reflector. This allows for greater reactor efficiency by reusing a portion of the neutrons. Unreflected neutrons are absorbed.
+			中子反射器收到中子轰击的时候有几率将中子弹回. 因此通过重新利用一些中子能提高反应堆的效率. 没有被反射的中子有概率被吸收掉.
 		</desc>
 		<note>
 
@@ -291,33 +292,33 @@
 	</reflector>
 	<generator>
 		<desc>
-			The generator convers shaft power directly from a turbine into RF power for ease of transport or use in other mods. Note that it is a multiblock that must be directly connected to the turbine. Also be aware that the extreme power supply this generator provides exceeds the capacities of many RF transport systems.
+			发电机能将涡轮机输出的轴功率直接变成RF能量便于供给其他的mod使用或者运输. 注意这是个多方块结构, 同时要与涡轮机直接相连. 当然了也要注意一下这个发电机的功率远远超过了许多RF运输系统的上限.
 		</desc>
 		<note>
-			RF Output: Back
+			RF输出: 后方
 		</note>
 	</generator>
 	<bigturbine>
 		<desc>
-			The high-pressure turbine runs off of steam directly from the lines thanks to a built-in steam injection system, allowing it to run more efficiently and generate far more power. Due to the greatly increased size of this turbine, it requires far more steam to operate, and can be built to seven stages instead of five. This turbine also has a housing to prevent damage. Low-pressure liquid can be collected with reservoirs or BC tanks below the back of the turbine.
+			高压涡轮内建有蒸汽注入系统所以要与蒸汽管道直接连接, 这允许它以更高的效率运行同时输出更大的功率. 因为高压涡轮的尺寸被大大地增加了, 所以它需要更多的蒸汽来运作, 而且可以建造多达7层轮机而不是5层. 高压涡轮同时自带外壳以防损伤. 低压流体可以在涡轮后方用蓄水池或者BC储罐收集.
 		</desc>
 		<note>
-			Max Speed: %d rad/s
+			最大转速: %d rad/s
 		</note>
 	</bigturbine>
 	<turbinemeter>
 		<desc>
-			The turbine dynamometer measures the speed of a turbine. It is placed below the body of a turbine, and will, with the aid of a redstone comparator, output a signal level corresponding to the turbine's speed as a fraction of its maximum speed.
+			涡轮动力计能测量涡轮的转速. 它需要被放在涡轮的下方, 而且在红石比较器存在的情况下, 能按照最大速度除以当前速度的结果来输出红石信号.
 		</desc>
 		<note>
-			Must be placed below the turbine with a clear view above
-			Redstone signal level (Normal Turbine): (Speed/%d)*15
-			Redstone signal level (High-Pressure Turbine): (Speed/%d)*15
+			必须被放在涡轮底部, 同时保证有涡轮的视野
+			红石信号等级 (普通涡轮): (转速/%d)*15
+			红石信号等级 (高压涡轮): (转速/%d)*15
 		</note>
 	</turbinemeter>
 	<marker>
 		<desc>
-			The tokamak blueprint highligher provides a general outline of the various parts of a tokamak fusion reactor to help with correctly placing and rotating the various components.
+			托卡马克蓝图高亮显示器能提供托卡马克反应堆各个组件的轮廓, 以便于建造和旋转各组件.
 		</desc>
 		<note>
 
@@ -325,7 +326,7 @@
 	</marker>
 	<flywheel>
 		<desc>
-			The turbine flywheel stabilizes the power output of a low-pressure turbine.
+			涡轮飞轮能够稳定低压涡轮的动力输出.
 		</desc>
 		<note>
 
@@ -333,7 +334,7 @@
 	</flywheel>
 	<diffuser>
 		<desc>
-			The steam diffuser takes hot, high-pressure steam from a reactor boiler and expands and cools it to more conventional lower-pressure steam for use in conventional steam turbines designed for use with coal boilers.
+			蒸汽扩压器能将反应堆的高温高压蒸汽变成普通的低压蒸汽以便于那些燃煤锅炉的涡轮机使用.
 		</desc>
 		<note>
 
@@ -341,7 +342,7 @@
 	</diffuser>
 	<thorium>
 		<desc>
-			Thorium reactor cores use molten thorium fuel salts to generate electricity. Rather unique compared to other fission reactors, they are not self-sufficient and require neutron flux in order to start. Additionally, the temperature-dependent neutron fertility means that as the temperature rises, they become less reactive, as a natural safeguard. The thorium fuel cycle also produces less waste than that of uranium.
+			钍反应堆燃料核使用钍熔盐燃料 (富集钍-FLiBe) 来产生电力. 与其他裂变反应堆不同, 钍堆并不能自我满足, 它需要外界热量和中子轰击才能开始反应. 此外, 与温度相关的中子活性意味着当温度上升时, 燃料变得更难以反应, 这是一种天然的保险. 钍燃料循环产生的核废料也比铀燃料要少.
 		</desc>
 		<note>
 
@@ -349,10 +350,51 @@
 	</thorium>
 	<fueldump>
 		<desc>
-			In the event of exceeding a critical temperature of %dC, a thorium reactor will trigger an emergency fuel dump in order to avoid a meltdown. This can cause a radiation leak, and is to be avoided if possible.
+			如果发生了紧急情况, 温度到达 %dC的阈值, 钍堆将会触发紧急燃料排空以避免堆芯熔毁. 此时将会导致辐射外泄, 所以如果能避免的话还是尽量避免.
+		</desc>
+		<note>
+			放置在燃料仓下方, 会自动触发来完成燃料的排空
+		</note>
+	</fueldump>
+	<solartop>
+		<desc>
+			%s允许在太阳能塔中使用熔融钠, 能极大地提高太阳能塔的功率输出和效率.
+		</desc>
+		<note>
+			2个单元必须安置在太阳能塔的顶端以正常工作
+		</note>
+	</solartop>
+	<solar>
+		<desc>
+			%s允许从太阳能塔中抽取高温熔融钠而不是直接输出轴功率. 因为这个过程更为复杂, 功率输出也更大.
+		</desc>
+		<note>
+			放置在太阳能塔的底端
+			需要 %dW 和 %d rad/s
+		</note>
+	</solar>
+	<name>
+		<desc>
+
 		</desc>
 		<note>
 
 		</note>
-	</fueldump>
+	</name>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
 </machines>

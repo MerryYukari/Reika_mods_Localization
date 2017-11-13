@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0"?>
 <resource>
 	<fluorite>
-		Fluorite is a crystal that occurs naturally in rock. Fluorite comes in various colors, but all will fluoresce (give off light) in the presence of neutrons or radation, allowing them to be used as a crude geiger counter. Fluorite has a large concentration of fluorine, which is useful for making hydrofluoric acid during the uranium enrichment process.
+		萤石(氟化钙)是石头中天然形成的一种晶体. 萤石有不同的颜色, 并且会在有辐射或者中子存在的情况下发出荧光, 可以当做天然的盖革计数器. 萤石中含有大量的氟, 可以用来制作氢氟酸以用于铀富集过程.
 	</fluorite>
 	<fuel>
-		Uranium fuel pellets are the fuel source for a standard fission reactor. They are gradually consumed, and will eventually turn into depleted uranium when the U235 component in them is depleted.
+		铀燃料弹丸是标准裂变反应堆的燃料. 它们会被逐渐消耗, 并且在U-235成分被完全消耗掉的时候变成贫铀.
 	</fuel>
 	<depleted>
-		Depleted uranium is not useful as nuclear fuel on its own, but it can be converted into plutonium, which is.
+		贫铀本身并不是有效的核燃料, 但是它能被转化成可裂变的钚239, 这让它成为一种优秀的增殖燃料.
 	</depleted>
 	<waste>
-		Nuclear waste is an extremely dangerous by-product of nuclear fission. It will accumulate in fuel cores and pollute the reactor, and therefore must be removed and properly disposed of. Held in hand or left in the world, its radioactivity will gradually poison the surroundings.
+		核废料是裂变过程中产生的极度危险的副产物. 它们会逐渐堆积在燃料核中, 污染整个燃料核, 因此必须被抽走并且正确的处理掉. 拿在手上或者丢在世界中, 它们的放射性会逐渐污染周围的环境.
 	</waste>
 	<plutonium>
-		Plutonium is an alternate, artificial fuel for nuclear fission reactors. Plutonium is extremely dangerous and more volatile than uranium, and must be used and handled with extreme care.
+		钚是另一种可选的人造核燃料. 相比起铀, 钚要危险和不稳定的多, 因此使用和处理过程一定要极端地小心.
 	</plutonium>
 	<breederfuel>
-		Breeder reactors require a special kind of fuel - standard enriched uranium wrapped in a layer of depleted uranium. Over time, the reactor's neutrons will convert this into plutonium.
+		增殖反应堆需要一种特殊的核燃料 - 标准富集铀被一层贫铀包裹起来. 随着时间增长, 反应堆中的中子会将贫铀转变成钚.
 	</breederfuel>
 	<magnet>
-		Magnets are used to manipulate the path of electrically charged things like plasma, and are used in great quantities in fusion reactors.
+		磁铁用于改变带电物体比如等离子的运动路径, 在聚变反应堆里需要非常多的磁铁.
 	</magnet>
 	<pellet>
-		Raw uranium can be powdered and mixed with graphite to create fuel pellets. These pellets are the fuel for a High-Temperature Gas Reactor.
+		生铀可以打粉然后与石墨混合来制造燃料丸, 这些燃料丸是高温气体反应堆(HTGR)的燃料.
 	</pellet>
 	<oldpellet>
-		Like normal uranium fuel, fuel pellets eventually are depleted and no longer useful.
+		与普通铀燃料一样, 燃料丸也会逐渐枯竭然后失去作用.
 	</oldpellet>
 </resource>
