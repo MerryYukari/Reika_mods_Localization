@@ -2,7 +2,7 @@
 <machines>
 	<generator>
 		<desc>
-			发电机可以将轴旋转产生的动能转化为�电能。其电流输出量与输入扭矩大小成正比,而输出电压则与转速成正比,同时总输出保持不变.本机器工作时不会有损耗.
+			发电机可以将轴旋转产生的动能转化为电能。其电流输出量与输入扭矩大小成正比,而输出电压则与转速成正比,同时总输出保持不变.本机器工作时不会有损耗.
 		</desc>
 		<note>
 			需求%dNm/A,每rad/s产生%dV
@@ -32,12 +32,12 @@
 			继电器是个受红石控制的电开关.为其提供电力时它可与其它导线连接并传输电力,撤去信号时则会切断电流通路.它本身无损耗,也无电流传输上限.
 		</desc>
 		<note>
-			
+
 		</note>
 	</relay>
 	<resistor>
 		<desc>
-			电阻在电路中可起限流作用.若通过电阻的电流会超过电阻器允许的范围,其超出部分会从其它可能路径中流出.电阻值可由其身上的三个色带读出,每种颜色都对应一个0-9的电阻值.前两个色带分别对应are the 10s and 1s places;第三条色带是a multiplier, adding its value in zeros to the end.使用染料可为其染色.
+			电阻在电路中可起限流作用.若通过电阻的电流会超过电阻器允许的范围,其超出部分会从其它可能路径中流出.电阻值可由其身上的三个色带读出,每种颜色都对应一个0-9的电阻值.前两个色带分别对应十位和个位;第三条色带表示倍乘, 在前两个色带对应的数字末尾添加对应个数的0.使用染料可为其染色.
 		</desc>
 		<note>
 			颜色-电阻对照表:
@@ -58,12 +58,12 @@
 			电池可以储存电力,可用作缓冲,也可用于长期储存电力.电池有数个不同等级;每个等级的电池,相比于上一个等级,都有容量和输出上的提升.单个电池的输出电流,电压和总电量是一定的.电池被拆除时会保存电量.它们从侧面接受电力输入,并在有红石信号输入时,从顶面输出电力.
 		</desc>
 		<note>
-			
+
 		</note>
 	</battery>
 	<transformer>
 		<desc>
-			变压器可借助安装于其一侧的线圈来改变流经其的电力之电流与电压大小.电流与电压的变更量由输入端与输出端的线圈数量比决定;比值大于1时, such as 1:8,可导致电流增大,而比值小于1时,such as 2:5,则会导致电压提升. Note that as the ratio gets farther from one, the efficiency drops and the wasted energy is dissipated as heat. Excessive temperatures (larger than %dC) or excessive currents (larger than %dA) will cause the transformer to violently fail.
+			变压器可借助安装于其一侧的线圈来改变流经其的电力之电流与电压大小.电流与电压的变更量由输入端与输出端的线圈数量比决定;比值大于1时, 比如 1:8,可导致电流增大,而比值小于1时, 比如 5:2,则会导致电压提升. 注意如果比例离 1 相差太远, 效率会降低同时浪费掉的能量会以热量的形式散失掉. 过高的温度 (高于 %dC) 或过大的电流 (高于 %dA) 将会导致变压器爆炸.
 		</desc>
 		<note>
 			可用散热片或液氮散热.
@@ -71,42 +71,58 @@
 	</transformer>
 	<meter>
 		<desc>
-			The electric meter, if spliced into a wire, will display the current, voltage, and power flowing through that wire. It has no effect on the actual power throughput, making it function similarly to a dynamometer.
+			电表在与电线相连的时候会显示电线中的电流, 电压和电功率. 它并不会影响当前的电流, 所以功能上与动力计类似.
 		</desc>
 		<note>
-			
+
 		</note>
 	</meter>
 	<rfbattery>
 		<desc>
-			The RF battery stores RF like any other RF storage device. However, unlike other devices, its specialized energy crystal allows it to store an enormous amount of energy, up to %d RF. It can take RF in the sides, and will output it out the top. Power can always be "pulled" out the top, but a redstone signal will make the battery try and push power to any available receivers.
+			RF电池就像是其他RF储存设备一样. 然而, 与其他储存设备不同的是, 它使用的特化能量水晶能让它储存巨量的能量, 多达 %d RF. 它能从侧面接受RF, 从顶端输出RF. 能量可以被从顶端"抽取", 但是红石信号可以让电池尝试推送能量给任何可能的接收设备.
 		</desc>
 		<note>
-			The bar on the side is a fill bar with logarithmic scaling
+			侧面的条是使用对数函数计数的电力计
 		</note>
 	</rfbattery>
-	<cable>
+	<eubattery>
 		<desc>
-			The RF Transfer cable is a specialized wire for transferring RF energy. It can transmit an unlimited amount of RF per tick, with the actual maximum of the network being fully customizable.
+			EU电池, 简称 RBSU, 能储存巨大的能量, 高达 %.0f EU 同时能输出巨大的电流. 它能从侧面接受EU, 从顶端输出EU. 能量可以被从顶端"抽取", 但是红石信号可以让电池尝试推送能量给任何可能的接收设备
 		</desc>
 		<note>
-			
+			侧面的条是使用对数函数计数的电力计
+		</note>
+	</eubattery>
+	<cable>
+		<desc>
+			RF导线是运输RF能量的特化线缆. 它每tick能传输的RF没有上限, 因此可以完全自定义电网的实际最大值.
+		</desc>
+		<note>
+
 		</note>
 	</cable>
 	<eusplit>
 		<desc>
-			The EU splitter is designed to take extremely large EU power sources, such as turbine generators, and split them into smaller, more managable current (EU/t) levels to avoid melting the more delicate wires like the glass fiber cable.
+			EU变压器被用来从巨大的EU来源, 比如涡轮发电机中, 接收能量, 同时将其分割为更小的, 可控的电流包 (EU/t) 来避免熔化掉那些娇气的玻璃导线.
 		</desc>
 		<note>
-			Multiple yellow dots marks the input; Orange dots mark output sides. Use the screwdriver to toggle sides between output and paneling
+			很多黄点的一面代表输入; 橙色点的一面代表输出. 使用螺丝刀来改变侧面的工作模式
 		</note>
 	</eusplit>
-	<name>
+	<wirelesspad>
 		<desc>
-			
+			无线能源传送器能将自身的能量传送给目标方块, 可以让导线不必伸出墙壁或者地板. 材料越好, 传送功率越高, 效率越高.
 		</desc>
 		<note>
-			
+			%s
+		</note>
+	</wirelesspad>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
 		</note>
 	</name>
 </machines>
