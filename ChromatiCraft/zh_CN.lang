@@ -147,6 +147,7 @@ chroma.metaalloy=流明荚
 chroma.redstonepod=红石控制仓
 chroma.fakesky=人造天空
 chroma.chunkloader=永恒水晶
+chroma.warpnode=扭曲节点
 
 chroma.bucket=桶
 chroma.invlink=背包链接
@@ -237,6 +238,8 @@ chromability.beealyze=基因视觉
 chromability.nuker=物质溶解
 chromability.lightcast=流明巨潮
 chromability.jump=流明人间大炮
+chromability.chestclear=收集光环
+chromability.superbuild=线型构造
 
 chromastruct.repeater=水晶中继器
 chromastruct.compound=复合灵气中继器
@@ -504,6 +507,7 @@ enchantment.chroma.harvestlevel=强化功能
 enchantment.chroma.airminer=空中采掘
 enchantment.chroma.phasing=破甲
 enchantment.chroma.bosskill=巨人打击
+enchantment.chroma.autocollect=物品吸附
 
 tc.research_category.chromaticraft=缤纷纪元
 

@@ -147,6 +147,7 @@ chroma.metaalloy=Lumen Pod
 chroma.redstonepod=Redstone Pod
 chroma.fakesky=Artificial Sky
 chroma.chunkloader=Persistence Crystal
+chroma.warpnode=Warp Nexus
 
 chroma.bucket=Bucket
 chroma.invlink=Inventory Warp
@@ -237,6 +238,8 @@ chromability.beealyze=Genetic Insight
 chromability.nuker=Matter Dissolution
 chromability.lightcast=Lumen Flood
 chromability.jump=Lumen Launch
+chromability.chestclear=Collective Aura
+chromability.superbuild=Linear Construction
 
 chromastruct.repeater=Repeater
 chromastruct.compound=MultiAura Repeater
@@ -504,6 +507,7 @@ enchantment.chroma.harvestlevel=Enhanced Utility
 enchantment.chroma.airminer=Air Miner
 enchantment.chroma.phasing=Armor Breach
 enchantment.chroma.bosskill=Capital Strike
+enchantment.chroma.autocollect=Inventory Insertion
 
 tc.research_category.chromaticraft=ChromatiCraft
 

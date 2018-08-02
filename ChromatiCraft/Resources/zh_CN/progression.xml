@@ -742,4 +742,116 @@
 			死于雾状的邪恶
 		</desc>
 	</voidmonster>
+	<luma>
+		<title>
+			虚影光华
+		</title>
+		<hint>
+			什么东西的...精华?
+		</hint>
+		<reveal>
+			虚无的精华, 有关空间和流明能量.
+		</reveal>
+		<desc>
+			一种能量与空间的流体
+		</desc>
+	</luma>
+	<name>
+		<title>
+			
+		</title>
+		<hint>
+			
+		</hint>
+		<reveal>
+			
+		</reveal>
+		<desc>
+			
+		</desc>
+	</name>
+	<name>
+		<title>
+			
+		</title>
+		<hint>
+			
+		</hint>
+		<reveal>
+			
+		</reveal>
+		<desc>
+			
+		</desc>
+	</name>
+	<name>
+		<title>
+			
+		</title>
+		<hint>
+			
+		</hint>
+		<reveal>
+			
+		</reveal>
+		<desc>
+			
+		</desc>
+	</name>
+	<name>
+		<title>
+			
+		</title>
+		<hint>
+			
+		</hint>
+		<reveal>
+			
+		</reveal>
+		<desc>
+			
+		</desc>
+	</name>
+	<name>
+		<title>
+			
+		</title>
+		<hint>
+			
+		</hint>
+		<reveal>
+			
+		</reveal>
+		<desc>
+			
+		</desc>
+	</name>
+	<name>
+		<title>
+			
+		</title>
+		<hint>
+			
+		</hint>
+		<reveal>
+			
+		</reveal>
+		<desc>
+			
+		</desc>
+	</name>
+	<name>
+		<title>
+			
+		</title>
+		<hint>
+			
+		</hint>
+		<reveal>
+			
+		</reveal>
+		<desc>
+			
+		</desc>
+	</name>v
 </progression>
