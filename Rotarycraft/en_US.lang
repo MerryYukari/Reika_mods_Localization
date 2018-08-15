@@ -437,6 +437,7 @@ label.power=Power
 label.range=Range
 label.damaged=Damaged
 label.fuel=Fuel Remaining
+label.operationtime=Operation Time
 
 message.drowning=Engine is Drowning!
 message.fod=Engine Destroyed from Animal Strikes!

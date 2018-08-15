@@ -437,6 +437,7 @@ label.power=功率
 label.range=范围
 label.damaged=损坏的
 label.fuel=剩余燃料
+label.operationtime=工序时长
 
 message.drowning=引擎进水!
 message.fod=引擎被动物损坏!
