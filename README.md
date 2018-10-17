@@ -14,6 +14,8 @@ Also we do welcome other localizatoin workers to put your localization here if y
 ## Useful Links
 [Reika_Mods_Issues](https://github.com/ReikaKalseki/Reika_Mods_Issues)
 
+[Reika_Mods_Localization](https://github.com/ReikaKalseki/Localizations)
+
 ### RotaryCraft
 [RotaryCraft Repository](https://github.com/ReikaKalseki/RotaryCraft)
 
