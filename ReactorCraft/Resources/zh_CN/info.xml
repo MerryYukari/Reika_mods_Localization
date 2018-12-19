@@ -1,4 +1,13 @@
-﻿<?xml version="1.0"?>
+<!--
+  @author Reika Kalseki
+  
+  Copyright 2018
+  
+  All rights reserved.
+  Distribution of the software in any form is only allowed with
+  explicit, prior permission from the owner.
+-->
+<?xml version="1.0"?>
 <info>
 	<physics>
 		核反应有2种类型, 裂变和聚变. 它们的工作原理都是质量转化为能量, 基于爱因斯坦的相对论 - E = mc^2. 这种能量的形式一般是热量或者高速中子. 因为c(光速)的值非常巨大 - 3亿米每秒 - 所以释放的能量也非常巨大, 哪怕消耗的质量非常小.

@@ -1,4 +1,13 @@
-﻿<?xml version="1.0"?>
+<!--
+  @author Reika Kalseki
+  
+  Copyright 2018
+  
+  All rights reserved.
+  Distribution of the software in any form is only allowed with
+  explicit, prior permission from the owner.
+-->
+<?xml version="1.0"?>
 <resource>
 	<fluorite>
 		氟石(氟化钙)是石头中天然形成的一种晶体. 氟石有不同的颜色, 并且会在有辐射或者中子存在的情况下发出荧光, 可以当做天然的盖革计数器. 氟石中含有大量的氟, 可以用来制作氢氟酸以用于铀富集过程.

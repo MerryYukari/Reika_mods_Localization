@@ -1,4 +1,13 @@
-﻿<?xml version="1.0"?>
+<!--
+  @author Reika Kalseki
+  
+  Copyright 2018
+  
+  All rights reserved.
+  Distribution of the software in any form is only allowed with
+  explicit, prior permission from the owner.
+-->
+<?xml version="1.0"?>
 <enchants>
 	<boostedlevel>
 		%s is the best you have been able to achieve thus far, but you want more. With the power of liquid chroma, %s is within your reach.
@@ -33,9 +42,9 @@
 	<autocollect>
 		More than once you have delighted in a rare find deep in a cave, then upon mining the valuable ore, finding out too late that it was directly adjacent to lava and watching helplessly as the items are incinerated. Carefully digging out the surroundings first is an unacceptable amount of work - you want something that will instead make the contents of the blocks you mine automatically enter your inventory.
 	</autocollect>
-	<name>
-		
-	</name>
+	<bosskill>
+		Over the course of your exploits, you have run across a small handful of creatures - often found deep in mysterious structures or guarding over some alien realm - that are an enormous hassle to kill as they seem to be able to soak up inordinate amounts of damage. You might be able to specialize a tool to take these creatures down, at the cost of utility on more ordinary creatures.
+	</bosskill>
 	<name>
 		
 	</name>

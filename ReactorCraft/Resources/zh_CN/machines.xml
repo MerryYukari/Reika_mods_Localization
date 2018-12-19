@@ -1,4 +1,13 @@
-﻿<?xml version="1.0"?>
+<!--
+  @author Reika Kalseki
+  
+  Copyright 2018
+  
+  All rights reserved.
+  Distribution of the software in any form is only allowed with
+  explicit, prior permission from the owner.
+-->
+<?xml version="1.0"?>
 <machines>
 	<processor>
 		<desc>
@@ -292,10 +301,12 @@
 	</reflector>
 	<generator>
 		<desc>
-			发电机能将涡轮机输出的轴功率直接变成RF能量便于供给其他的mod使用或者运输. 注意这是个多方块结构, 同时要与涡轮机直接相连. 当然了也要注意一下这个发电机的功率远远超过了许多RF运输系统的上限.
+			发电机能将涡轮机输出的轴功率直接变成其他形式的能量便于供给其他的mod使用或者运输. 注意这是个多方块结构, 同时要与涡轮机直接相连. 当然了也要注意一下这个发电机的功率远远超过了许多能量运输系统的上限.
 		</desc>
 		<note>
-			RF输出: 后方
+			能量输出: 后方
+			
+			输出模式可以用螺丝刀改变
 		</note>
 	</generator>
 	<bigturbine>

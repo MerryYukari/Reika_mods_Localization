@@ -1,4 +1,13 @@
-﻿<?xml version="1.0"?>
+<!--
+  @author Reika Kalseki
+  
+  Copyright 2018
+  
+  All rights reserved.
+  Distribution of the software in any form is only allowed with
+  explicit, prior permission from the owner.
+-->
+<?xml version="1.0"?>
 <progression>
 	<crystals>
 		<title>
@@ -369,7 +378,7 @@
 			广播
 		</title>
 		<hint>
-			除非你直接把基地造在危险的水晶魔塔附近, 否则它们看上去根本没法利用, 因为它们的能量能覆盖的范围太有限了.
+			需要一种更好的方式来把能量从魔塔输送到基地中.
 		</hint>
 		<reveal>
 			这些折射器似乎可以重新聚集信号并将其传递下去.

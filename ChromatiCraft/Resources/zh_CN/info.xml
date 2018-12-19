@@ -1,3 +1,12 @@
+<!--
+  @author Reika Kalseki
+  
+  Copyright 2018
+  
+  All rights reserved.
+  Distribution of the software in any form is only allowed with
+  explicit, prior permission from the owner.
+-->
 <?xml version="1.0"?>
 <info>
 	<elements>
@@ -72,6 +81,9 @@
 	<structurepasswords>
 		当你费尽心机完成了一个巨大的地下迷宫之时, 你突然想到个问题, 你至今仍不知道这个迷宫到底意味着什么或者与什么东西相关联. 尽管如此, 鉴于从过于的失误中学到的经验 (你可能永远都不会想起自己曾经决定提升家中机器的燃料效率的点子), 你决定将迷宫记录下来以便未来使用.
 	</structurepasswords>
+	<turborepeater2>
+		涡轮增压过后的中继器确实很有用, 但是对于一些耗能极高的设备来说它们还是顶不住. 也许稍微升级一下它们的结构, 将其中的一些部分换成能量更为充沛的替代品, 能够更进一步地提升它们.
+	</turborepeater2>
 	<name>
 
 	</name>
