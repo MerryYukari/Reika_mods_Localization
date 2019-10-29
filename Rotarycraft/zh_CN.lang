@@ -268,6 +268,7 @@ item.craftpattern=合成样板
 item.rangefinder=测距仪
 item.gearupgrade=集成齿轮箱升级
 item.springpiston=手持式活塞
+item.voidrailgun=虚空金属轨道炮弹药
 
 extract.coaldust=煤粉
 extract.irondust=铁粉
@@ -428,6 +429,8 @@ upgrade.tier5=抗扭强度升级组件
 upgrade.afterburn=再燃装置升级组件
 upgrade.efficiency=谐振稳定升级组件
 upgrade.flux=通量振幅升级组件
+upgrade.redstone=集成红石升级组件
+upgrade.lodestone=永磁体升级组件
 
 label.temperature=温度
 label.pressure=压力
@@ -541,5 +544,7 @@ achievement.failsteel=该补课的材料学家
 achievement.failsteel.desc=制作钢的过程中浪费好多好多铁
 achievement.pulsefire=喷气炉纵火狂
 achievement.pulsefire.desc=用喷气式发动机炉子点燃你的房子
+achievement.dumbextractor=不是这么用的
+achievement.dumbextractor.desc=完全无法掌握动力需求和分配
 
 tc.research_category.rotarycraft=旋转工艺

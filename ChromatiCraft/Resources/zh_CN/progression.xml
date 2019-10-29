@@ -345,6 +345,20 @@
 			一座被掩埋的大厅, 充斥着财宝以及危险.
 		</desc>
 	</desertstruct>
+	<snowstruct>
+		<title>
+			霜冻哨站
+		</title>
+		<hint>
+			满眼都是冰雪, 没什么别的东西.
+		</hint>
+		<reveal>
+			看起来似乎包含了一些保存有什么东西的哨所
+		</reveal>
+		<desc>
+			在荒芜的冰原上的重大发现
+		</desc>
+	</snowstruct>
 	<die>
 		<title>
 			痛苦的损失
@@ -462,7 +476,7 @@
 			再充能
 		</title>
 		<hint>
-			水晶魔塔的魔力在巨大的消耗下很快被榨尽, 而且它还需要很长时间来充能.
+			水晶魔塔的魔力在巨大的消耗下很快被榨干, 而且它还需要很长时间来充能.
 		</hint>
 		<reveal>
 			那些彩虹水晶碎片组成的环帮助巨大.
@@ -485,15 +499,29 @@
 			与人为敌的巨龙, 降伏它便可得到物质和精神上的双重奖励.
 		</desc>
 	</killdragon>
-	<breakspawner>
+	<findspawner>
 		<title>
 			无尽生物
 		</title>
 		<hint>
-			那些金属笼子似乎会无穷无尽地弹出生物...
+			那个诡异的冒火盒子是什么?
 		</hint>
 		<reveal>
-			只有摧毁笼子才可以阻止它.
+			一种邪恶的造物, 一种无尽的生物潮流的源头.
+		</reveal>
+		<desc>
+			诡异的金属盒子能放出无数的怪物
+		</desc>
+	</findspawner>
+	<breakspawner>
+		<title>
+			力挽狂澜
+		</title>
+		<hint>
+			那些金属笼子似乎会无穷无尽地弹出生物...怎么阻止它?
+		</hint>
+		<reveal>
+			只有摧毁笼子才可以阻止它...暂时的.
 		</reveal>
 		<desc>
 			摧毁刷怪笼不仅可以阻挡怪兽的洪流, 还能让你更好地理解它, 甚至是直接拿到它的本体.
@@ -765,62 +793,62 @@
 			一种能量与空间的流体
 		</desc>
 	</luma>
-	<name>
+	<warpnode>
 		<title>
-			
+			能量涡旋
 		</title>
 		<hint>
-			
+			空间中的某种洞.
 		</hint>
 		<reveal>
-			
+			也许有种方法能在其间穿梭.
 		</reveal>
 		<desc>
-			
+			一种虫洞
 		</desc>
-	</name>
-	<name>
+	</warpnode>
+	<powertree>
 		<title>
-			
+			储存能量
 		</title>
 		<hint>
-			
+			一种能吸引流明的结构...干什么用的?
 		</hint>
 		<reveal>
-			
+			很明显是一种大规模的缓冲或者存储.
 		</reveal>
 		<desc>
-			
+			树形电池
 		</desc>
-	</name>
-	<name>
+	</powertree>
+	<tunecast>
 		<title>
-			
+			个人化铸造
 		</title>
 		<hint>
-			
+			如何把你自身刻印到你的铸造物上?
 		</hint>
 		<reveal>
-			
+			事后看起来还是很明显的.
 		</reveal>
 		<desc>
-			
+			将你自身和你的造物连接起来
 		</desc>
-	</name>
-	<name>
+	</tunecast>
+	<bypassweak>
 		<title>
-			
+			追溯识别
 		</title>
 		<hint>
-			
+			这个特定的设计看起来很眼熟, 而且看起来很不好.
 		</hint>
 		<reveal>
-			
+			对将要到来的错误的预见能让你避免它们.
 		</reveal>
 		<desc>
-			
+			在灾难来临之前就发现它
 		</desc>
-	</name>
+	</bypassweak>
 	<name>
 		<title>
 			

@@ -69,7 +69,9 @@ block.slag=堆芯熔融物
 block.scrubber=蒸汽滤净机
 block.fluorite=氟石块
 block.calcite=方解石块
+block.lodestone=磁石块
 block.ferromagnet=磁铁块
+block.graphite=石墨块
 
 item.waste=核废料
 item.fuel=铀燃烧颗粒

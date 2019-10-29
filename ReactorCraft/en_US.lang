@@ -69,7 +69,9 @@ block.slag=Corium
 block.scrubber=Steam Scrubber
 block.fluorite=Fluorite Block
 block.calcite=Calcite Block
+block.lodestone=Lodestone Block
 block.ferromagnet=Ferromagnetic Block
+block.graphite=Graphite Block
 
 item.waste=Nuclear Waste
 item.fuel=Uranium Fuel Pellet

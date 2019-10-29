@@ -79,7 +79,7 @@
 	</guardian>
 	<stand>
 		<desc>
-			In order to achieve your more grandoise casting arrangements, you will need to expand the grid beyond a 3x3, and that means you need a receptacle on which to store the items. Integrated into the structures around your table, these stands serve exactly that purpose, allowing you a 5x5 grid. The outer ring will need to be elevated by a block so that they have a clear line of sight to the table.
+			In order to achieve your more grandiose casting arrangements, you will need to expand the grid beyond a 3x3, and that means you need a receptacle on which to store the items. Integrated into the structures around your table, these stands serve exactly that purpose, allowing you a 5x5 grid. The outer ring will need to be elevated by a block so that they have a clear line of sight to the table.
 		</desc>
 		<note>
 
@@ -192,10 +192,12 @@
 	</fence>
 	<furnace>
 		<desc>
-			Smelting. One of the most boring, mundane tasks you nonetheless still find yourself forced to do. Sure, there are all sorts of ways to speed up the process - although the external heating methods have a nastly tendency of liquefying the whole setup - but you might now be able to enhance the yield with a new kind of furnace able to harness not only fire but also enhancement energy as well.
+			Smelting. One of the most boring, mundane tasks you nonetheless still find yourself forced to do. Sure, there are all sorts of ways to speed up the process - although the external heating methods have a nasty tendency of liquefying the whole setup - but you might now be able to enhance the yield with a new kind of furnace able to harness not only fire but also enhancement energy as well.
 		</desc>
 		<note>
-			Yields %dx output for anything smelted inside it except for ingot dusts
+			Yields increased output for anything smelted inside it except for ingot dusts
+			
+			Base increase is %dx, higher for some other materials
 		</note>
 	</furnace>
 	<laser>
@@ -252,7 +254,9 @@
 			Enchanting has always been a random and infurating process. Spend a week collecting experience and you might get Bane of Arthropods I, or you might be lucky enough to get Fortune III and Efficiency V off of a few levels. Rather than tear your hair out trying to spend your experience efficiently, you recall the liquid chroma, which, being concentrated experience, may allow you not only automatic enchanting, but to allow you more fine control over the actual enchantments as well.
 		</desc>
 		<note>
-			Each level of enchantment requires %d mB of Chroma
+			Enchantment base cost: %d mB per level
+			
+			Can take an already-enchanted item to discount this cost
 		</note>
 	</enchanter>
 	<chromaflower>
@@ -349,7 +353,7 @@
 	</lampcontrol>
 	<aspectjar>
 		<desc>
-			This fabrication process gives you nightmares. Not only is it incredibly unstable - more than once the thing has exploded, sent items flying, or done other nasty things - and to top it off it draws liquid essence out of jars that must be placed around the construct. This would be fine, were it not for the small capacity of these jars, meaning filling them - another tedious process - is a constant necessity. Being able to store more essentia in a jar - perhaps even multiple types! - would be of enormous convenience.
+			This fabrication process is a nightmare. It is incredibly unstable - having exploded, sent items flying, hit you with lightning, and more - and worse yet needs liquid essence out of jars, which, having a small capacity, constantly necessitate tedious filling. Being able to store more in a jar - perhaps even multiple types! - would be of enormous convenience. However, storing essentia in this way seems to have broken the ability of some of your devices to draw from it at a distance; fortunately, things that use tubes (or their replacements) do still work. Perhaps you will find a way to restore full functionality later.
 		</desc>
 		<note>
 			Primal Aspect Capacity: %d
@@ -366,7 +370,7 @@
 	</farmer>
 	<automator>
 		<desc>
-			Though less of a hassle than some other fabrication systems - that pyramidal altar nearly left you dead on the table - it can still be tedious, particularly with recursive crafting that can take quite a bit of time. This is where an idea hits you - you should be familiar enough with some of these recipes that you might be able to set up some sort of system to automatically perform them, reducing the amount of work by an enormous amount.
+			Though less of a hassle than some other fabrication systems - that pyramidal altar nearly left you dead on the table - your casting system can still be tedious, particularly with recursive crafting that can take quite a bit of time. You DID create a device for placing items in stands automatically, but it is slow, limited to a few recipes, and cannot actually start the crafting, meaning you are still forced to be involved. This is where an idea hits you - you should be familiar enough with some of these recipes that you might be able to build on that device, adding what is missing and finally achieving proper automation.
 		</desc>
 		<note>
 
@@ -511,7 +515,9 @@
 			So you have a cauldron full of water, in which you need to dump various ingredients to fabricate your desired target. As that process more often fails than not, producing copious amounts of noxious gas in the process, you created an odd construct to help automate the process. However, you need to actually transport the essentia there, and the piping you tried at first...leaves much to be desired. A longer-range and more flexible solution - ideally more consistently functional as well - would fare far better. Simply attach one to each end, as well as some at regular intervals in between.
 		</desc>
 		<note>
-
+			Will continuously attempt to fill labelled jars and empty alembics
+			
+			Also expands the range of the Infusion Matrix aspect source search
 		</note>
 	</essentiarelay>
 	<glowfire>
@@ -733,6 +739,46 @@
 
 		</note>
 	</optimizer>
+	<injector>
+		<desc>
+			Despite having only recently begun using casting stands to enhance your table, you are thoroughly sick of stuffing items into them; those recipes involving shoving shards together in various combinations have proven particularly tedious. Some time ago, you designed a construct for placing items in devices; perhaps you could apply that knowledge and design something capable of being given a recipe and placing the ingredients in the stands automatically. That does not quite automate the process - you still need to place the central item, and trigger the actual crafting - but it is a start.
+		</desc>
+		<note>
+
+		</note>
+	</injector>
+	<landmark>
+		<desc>
+			Apparently sticking blue dye on a power torch, beyond simply tinting it that color, makes it, when used with others like it, capable of demarcating an area or volume which can then be used by some of your machinery. Useful, perhaps, but they retain their parent torch's need to be stuck onto something, and the bounds are not always clear. You can solve both of those issues by binding them into the world somewhat more explicitly...something you have perhaps managed to do somewhat TOO effectively.
+		</desc>
+		<note>
+
+		</note>
+	</landmark>
+	<hoverpad>
+		<desc>
+			Having built a base with a large number of rooms spread across multiple floors, and a maze of stairs and walkways between them, you have realized that while it excels in aesthetics it suffers greatly in practicality. In an attempt to solve this, you created an access shaft allowing you to travel between any two floors. However, this too has an issue: Reliably getting between said floors, with nothing solid to walk on, is fiddly and requires the ability to fly. If you could just...suppress gravity and friction while moving through the shaft, it would be far more useful.
+		</desc>
+		<note>
+
+		</note>
+	</hoverpad>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
 	<name>
 		<desc>
 

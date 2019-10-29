@@ -1,0 +1,198 @@
+<!--
+  @author Reika Kalseki
+  
+  Copyright 2018
+  
+  All rights reserved.
+  Distribution of the software in any form is only allowed with
+  explicit, prior permission from the owner.
+-->
+<?xml version="1.0"?>
+<machines>
+	<compressor>
+		<desc>
+			空气压缩机能用轴来压缩空气,通过导能管道能给BuildCraft的机器供能.如果提供过量的动力,它会爆炸.
+		</desc>
+		<note>
+			在爆炸前所能达到的最大压力: %d kPa
+			朝向与输出: 与BC引擎类似
+			动力输入: 后面
+		</note>
+	</compressor>
+	<pneuengine>
+		<desc>
+			气动引擎使用涡轮将压缩空气从PneumaticCraft的管道转为轴功率.使用它的GUI即可选择输出的转速.输出的动力越大就需要越高的气压和气流.
+		</desc>
+		<note>
+			<sub>
+				<s1>
+					空气输入: 后面
+
+					过热临界温度: %dC
+
+					级别从0-5.每个级别将会输出额外的动力,但会削弱利用率
+				</s1>
+				<s2>
+					%s
+				</s2>
+			</sub>
+		</note>
+	</pneuengine>
+	<boiler>
+		<desc>
+			摩擦锅炉使用轴功率加热泵入其中的水.一旦沸腾,水就会变为水蒸气从锅炉顶部排出.机器在制造蒸汽前有一段预热时间.注意该机器可能会过热而损坏.
+		</desc>
+		<note>
+			动力输入: 下面
+		</note>
+	</boiler>
+	<steamturbine>
+		<desc>
+			蒸汽轮机会从后方的任何管道或储罐中获取蒸汽,利用蒸汽来驱动轴转动.使用它的GUI可以选择使用功率(以及蒸汽消耗).
+		</desc>
+		<note>
+			<sub>
+				<s1>
+					蒸汽输入: 后面
+
+					过热临界温度: %dC
+
+					级别从0-5.每个级别将会输出额外的动力,但会降低利用率
+				</s1>
+				<s2>
+					%s
+				</s2>
+			</sub>
+		</note>
+	</steamturbine>
+	<generator>
+		<desc>
+			发电机利用旋转动力产出IC2特有的电力 转化率为 %.每 W/EU. 总功率和EU的电流包数与大小会随着动力的输入而变化.
+		</desc>
+		<note>
+			动力输入: 后面
+			如果"Hard EU"控制开启的话, 需要IC2冷却液或者液氮
+		</note>
+	</generator>
+	<electricmotor>
+		<desc>
+			电动引擎能把IC2的电力转化为旋转功力.右击打开GUI能设定其输出转速.更高的能量输出则需要更多的电力,更强的电压.
+		</desc>
+		<note>
+			<sub>
+				<s1>
+					电线连接位置: 后面
+
+					过热临界温度: %dC, 如果"Hard EU"控制开启的话, EU超压将会爆炸
+
+					级别从0-5.每个级别将会输出额外的动力,但会削弱利用率
+				</s1>
+				<s2>
+					%s
+				</s2>
+			</sub>
+		</note>
+	</electricmotor>
+	<fuelengine>
+		<desc>
+			燃油引擎能够利用Buildcraft的燃油来产生旋转动力.它的运作产出方式类似其他mod的发电机.它需要润滑油以及冷却水,引擎在过热时会减速.
+		</desc>
+		<note>
+			扭矩: %d Nm
+			转速: %d rad/s
+			功率: %dW
+		</note>
+	</fuelengine>
+	<dynamo>
+		<desc>
+			旋转动力发电机能将旋转工艺的动力转化为热力膨胀的红石通量. 由于磁场内部的限制, 它最多只能接受的扭矩为 %d Nm  (升级后为 %d Nm) 最大转速 %d rad/s. 多余的能量不会造成危险, 但会被浪费掉.
+		</desc>
+		<note>
+			方向和输出: 和热力膨胀的发电机一样
+			动力输入: 后面
+		</note>
+	</dynamo>
+	<magnetic>
+		<desc>
+			静磁引擎的功能类似气动发电机.它能将RF转化为旋转动力,它的输出转速取决于所选择的速度大小.跟其他转换引擎一样,它需要冷却剂.
+		</desc>
+		<note>
+			<sub>
+				<s1>
+					能量输入: 后面
+
+					过热临界温度: %dC
+
+					级别从0-5.每个级别将会输出额外的动力,但会削弱利用率
+				</s1>
+				<s2>
+					%s
+				</s2>
+			</sub>
+		</note>
+	</magnetic>
+	<name>
+		<desc>
+			
+		</desc>
+		<note>
+			
+		</note>
+	</name>
+	<name>
+		<desc>
+			
+		</desc>
+		<note>
+			
+		</note>
+	</name>
+	<name>
+		<desc>
+			
+		</desc>
+		<note>
+			
+		</note>
+	</name>
+	<name>
+		<desc>
+			
+		</desc>
+		<note>
+			
+		</note>
+	</name>
+	<name>
+		<desc>
+			
+		</desc>
+		<note>
+			
+		</note>
+	</name>
+	<name>
+		<desc>
+			
+		</desc>
+		<note>
+			
+		</note>
+	</name>
+	<name>
+		<desc>
+			
+		</desc>
+		<note>
+			
+		</note>
+	</name>
+	<name>
+		<desc>
+			
+		</desc>
+		<note>
+			
+		</note>
+	</name>
+</machines>

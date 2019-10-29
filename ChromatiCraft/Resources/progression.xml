@@ -345,6 +345,20 @@
 			A subsurface hollow, filled with loot but also danger
 		</desc>
 	</desertstruct>
+	<snowstruct>
+		<title>
+			Snowy Outposts
+		</title>
+		<hint>
+			Snow and ice as far as the eye can see, and yet there remain things to find.
+		</hint>
+		<reveal>
+			Including, it seems, long-abandoned outposts holding...something.
+		</reveal>
+		<desc>
+			A rich discovery in a desolate arctic wasteland
+		</desc>
+	</snowstruct>
 	<die>
 		<title>
 			Painful Loss
@@ -462,7 +476,7 @@
 			Recharge
 		</title>
 		<hint>
-			Pylons drain too quickly for instensive use, and take too long to recharge.
+			Pylons drain too quickly for intensive use, and take too long to recharge.
 		</hint>
 		<reveal>
 			That ring of iridescent crystals dramatically helps.
@@ -485,15 +499,29 @@
 			A giant, hostile dragon whose destruction gives both physical and conceptual reward
 		</desc>
 	</killdragon>
-	<breakspawner>
+	<findspawner>
 		<title>
 			Endless Mobs
 		</title>
 		<hint>
-			These metal cages spew forth endless creatures...
+			What is that strange flaming box?
 		</hint>
 		<reveal>
-			The only way to stop them is to destroy them.
+			A construct of some malevolent origin, a source for an interminable stream of creatures.
+		</reveal>
+		<desc>
+			Strange metal boxes that release infinite numbers of monsters
+		</desc>
+	</findspawner>
+	<breakspawner>
+		<title>
+			Stopping the Torrent
+		</title>
+		<hint>
+			These metal cages spew forth endless creatures...how to put an end to it?
+		</hint>
+		<reveal>
+			The only way to stop them is to destroy them...for now.
 		</reveal>
 		<desc>
 			Destroying a spawner not only stops the flood of creatures, but also lets you better understand, and maybe even harvest it
@@ -765,62 +793,62 @@
 			A liquid of both energy and space
 		</desc>
 	</luma>
-	<name>
+	<warpnode>
 		<title>
-			
+			Energy Vortices
 		</title>
 		<hint>
-			
+			Some sort of hole in space.
 		</hint>
 		<reveal>
-			
+			Which may provide a method to travel between them.
 		</reveal>
 		<desc>
-			
+			Wormholes of a sort
 		</desc>
-	</name>
-	<name>
+	</warpnode>
+	<powertree>
 		<title>
-			
+			Stockpiling Energy
 		</title>
 		<hint>
-			
+			A construct which has the ability to draw lumens into itself...for what?
 		</hint>
 		<reveal>
-			
+			Apparently to act as a large buffer or storage.
 		</reveal>
 		<desc>
-			
+			Arboriform Battery
 		</desc>
-	</name>
-	<name>
+	</powertree>
+	<tunecast>
 		<title>
-			
+			Casting Personalization
 		</title>
 		<hint>
-			
+			How to imprint yourself onto your casting structure?
 		</hint>
 		<reveal>
-			
+			That should have been rather obvious in hindsight.
 		</reveal>
 		<desc>
-			
+			Linking your crafting to your person
 		</desc>
-	</name>
-	<name>
+	</tunecast>
+	<bypassweak>
 		<title>
-			
+			Retroactive Recognition
 		</title>
 		<hint>
-			
+			This particular design seems somewhat familiar, and not in a good way.
 		</hint>
 		<reveal>
-			
+			Prediction of upcoming mistakes enables you to avoid them altogether.
 		</reveal>
 		<desc>
-			
+			Spotting disaster before it strikes
 		</desc>
-	</name>
+	</bypassweak>
 	<name>
 		<title>
 			

@@ -28,7 +28,7 @@
 		Useful if low on food or desperately low on health, the ability to instantly heal a heart or two is an expensive yet indispensable asset.
 	</heal>
 	<health>
-		Even with the most powerful armor available, and with all sorts of other protections active, you often find yourself still in mortal danger simply due to the fact that some things deal more damage than you can withstand. Fortunately, you have found that you have the ability to increase your life force up to a factor of three with the application of a great deal of associated energy.
+		Even with the most powerful armor available, and with all sorts of other protections active, you often find yourself still in mortal danger simply due to the fact that some things deal more damage than you can withstand. Fortunately, you have found that you have the ability to increase your life force up to a factor of six with the application of a great deal of associated energy.
 	</health>
 	<communicate>
 		You are not alone in this world; you share it with many other creatures, ranging from basic animals to beings advanced enough to try and scam you out of emeralds. However, some of these creatures seem to harbor an irrational hatred for you, attempting to kill you on sight, even if it costs them their own lives. Using the magic elements, combined with the application of a healthy amount of deception, you might be able to stave off their aggression.
@@ -97,7 +97,7 @@
 		You have previously devised ways to combat the corruption that infects your world, but reverting the damage is often time-consuming and requires direct manual input. Remembering that the rainbow trees accomplish this effect naturally, you wonder if you can imbue yourself with a similar capability.
 	</growaura>
 	<meinv>
-		Few things are more irritating than deciding to build a structure, then having to return home 15 times because you cannot carry enough materials. You have that near-infinite storage system, but its wireless capabilities, if they work at all - a rare occurrence - are expensive and difficult to use. Much better would be to somehow unify whatever you hold with what might be in the system.
+		Few things are more irritating than deciding to build a structure, then having to return home 15 times because you cannot carry enough materials. You have that near-infinite storage system, but its wireless capabilities, if they work at all - a rare occurrence - are expensive and difficult to use. Much better would be to somehow unify whatever you hold with what might be in the system, accomplished via binding yourself to any part of the storage network.
 	</meinv>
 	<mobseek>
 		A mob radar is all well and good, until its warning of a nearby creeper is useless because the mob is hiding in a patch of trees. Going into the forest is a very bad idea, as it entails putting oneself in danger; being able to see - and shoot - the mobs through solid surfaces would be far better.
@@ -123,9 +123,9 @@
 	<chestclear>
 		Finding rooms with chests of loot is always a nice surprise - though slightly less pleasant when a hidden spawner arranges for an unexpected encounter - but actually TAKING all of the loot is something of a chore. And that does not even begin to cover cases like when the chests are inaccessible, such as the one you encountered behind a tripwire some maniac rigged to TNT. Being able to raid these things at a distance would be not only convenient, but prudent.
 	</chestclear>
-	<name>
-
-	</name>
+	<mobbait>
+		No matter what you try, going out at night seemingly inevitably results in you being tailed by a dozen assorted monsters who will not stop the chase until you or they are destroyed. You do not always have enough firepower on hand to make that a desirable gamble, and so deception might be in order instead - leaving something behind to distract them, giving you time to flee. One wonders if this works on all pursuers, regardless of how alien and distorted they may be...
+	</mobbait>
 	<name>
 
 	</name>

@@ -84,6 +84,18 @@
 	<turborepeater2>
 		A turbocharged repeater helps, but for the truly powerful constructs even they have proved unable to keep up. Perhaps a slight upgrade to their tower, replacing some parts with more energetic variants, could improve them even further.
 	</turborepeater2>
+	<abilities>
+		Powerful constructs and tools are plenty useful, but they are not a valid solution to every potential need. In particular, you may not have the inventory space to cart around 41 kinds of tools, and digging out the correct one can be rather too slow for the more urgent situations. Additionally, you have heard stories about lands where the use of such tools is forbidden, and the tools are made to disappear from your very hands. If you could imbue your own body with those powers instead, triggerable on demand, powered from your own personal energy storage, both issues would be solved.
+	</abilities>
+	<dimtuning>
+		This new world is somewhat difficult to get a handle on, not only figuratively, but also literally; thus far the portal has been somewhat...out of phase, akin to a radio tuned slightly off of a station. This has prevented you from properly interacting with much of it; entire areas remain inaccessible, and several formations and structures are impossible to make use of. Clearly you need to refine this...tuning, so that you can properly mesh with the fabric of this world and venture where you wish and harvest what you please.
+	</dimtuning>
+	<casttuning>
+		As your casting process grows ever more complicated, involving more interacting parts and more intricate procedures, you are encountering more and more recipes which cannot be done without "imprinting" the casting structure with some aspect of yourself. Hopefully this will carry that imprint onto the things which it constructs, thus enabling them to be permanently tied to yourself and your efforts.
+	</casttuning>
+	<multiblocks>
+		It is becoming clear at this point that in order to properly harness and manipulate crystal energies, you are going to need more than a simple block here or there. In particular, anything involving crafting, handling energy, or infusing one thing into another seems to require a fairly large construction. Given their size and number, and possible environmental considerations, it would be wise to build most or all of these - especially any that have anything to do with crafting or the pylons - outside.
+	</multiblocks>
 	<name>
 		
 	</name>

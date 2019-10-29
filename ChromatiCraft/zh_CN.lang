@@ -88,6 +88,9 @@ chroma.explosionshield=爆炸护盾
 chroma.manabooster=魔力增幅器
 chroma.progresslink=见闻共享基座
 chroma.optimizer=流明净化装置
+chroma.landmark=立体定义节点
+chroma.injector=铸件台嵌入焦点
+chroma.hoverpad=悬浮立场控制器
 
 adjacency.black=效率提升
 adjacency.red=防御核心
@@ -149,6 +152,13 @@ chroma.redstonepod=红石控制仓
 chroma.fakesky=人造天空
 chroma.chunkloader=永恒水晶
 chroma.warpnode=扭曲节点
+chroma.spawnershutdown=刷怪笼失活吊灯
+chroma.trapfloor=镜像之石
+chroma.bedrockcrack=微光基岩
+chroma.rfpod=通量吊舱
+chroma.encrusted=流明沉积水晶
+chroma.injectorfocus=铸件台嵌入焦点
+chroma.hoverpadaux=悬浮台灯
 
 chroma.bucket=桶
 chroma.invlink=背包链接
@@ -202,6 +212,10 @@ chroma.fertileseed=丰产种子
 chroma.splineattack=贝兹水晶
 chroma.shieldedcell=抗侵蚀元件
 chroma.bottleneck=灵气真视水晶
+chroma.spawnerbypass=刷怪笼干扰水晶
+chroma.endereye=强化末影之眼
+chroma.lightgun=照明枪
+chroma.probe=考察水晶
 
 chromability.reach=范围提升
 chromability.magnet=磁力
@@ -241,6 +255,7 @@ chromability.lightcast=流明巨潮
 chromability.jump=流明人间大炮
 chromability.chestclear=收集光环
 chromability.superbuild=线型构造
+chromability.mobbait=分化追击
 
 chromastruct.repeater=水晶中继器
 chromastruct.compound=复合灵气中继器
@@ -274,6 +289,9 @@ chromastruct.datanode=远古数据高塔
 chromastruct.wirelesspedestal=流明扩散基座
 chromastruct.wirelesspedestal2=增幅流明扩散基座
 chromastruct.progresslink=见闻共享基座
+chromastruct.optimizer=流明净化方尖碑
+chromastruct.snowstruct=霜冻哨站
+chromastruct.tree_sender=流明树传输焦点
 
 crystal.cave=洞穴水晶
 crystal.lamp=水晶灯
@@ -369,6 +387,9 @@ chromacraft.lumencore=流明核心
 chromacraft.glowchunk=辐射宝石
 chromacraft.lumengem=流明宝石
 chromacraft.avolite=束光宝石
+chromacraft.snowstruct=霜雪碎片
+chromacraft.bedrockloot=基层精华
+chromacraft.bedrockloot2=纯净基层精华
 
 chromamod.crystalwand=水晶魔杖核心
 chromamod.firaxcap=火山辉晶杖端
@@ -415,6 +436,7 @@ chromablock.dimgen.crystalleaf=水晶树叶
 chromablock.dimgen.gemstone=荧光宝石
 chromablock.dimgen.oceanstone=海洋之石
 chromablock.dimgen.cliffglass=灵气琉璃
+chromablock.dimgen.glowcave=能量裂隙
 
 chromablock.laser.emitter=光束发生器
 chromablock.laser.target=定向接收器
@@ -428,6 +450,14 @@ chromablock.laser.splitter=光束分割器
 chromablock.laser.oneway=定向发送器
 chromablock.laser.colorizer=色彩过滤透镜
 chromablock.laser.polarizer=光束极化器
+
+chroma.pistonbit=过滤位元
+chroma.pistoncontrol.0=磁带播放控制
+chroma.pistoncontrol.1=流明爆裂触发
+chroma.pistoncontrol.2=磁带移位控制
+chroma.pistoncontrol.3=磁带数据显示
+chroma.pistontarget.0=爆发反射面板
+chroma.pistontarget.1=爆发传导面板
 
 chromablock.dimdata.0=建筑接口
 chromablock.dimdata.1=建筑旁通面板
@@ -444,6 +474,7 @@ chromaitem.dimgen.geode=大地宝石
 chromaitem.dimgen.crysleaf=水晶树叶
 chromaitem.dimgen.oceanstone=海洋之石
 chromaitem.dimgen.cliffshard=水晶琉璃碎片
+chromaitem.dimgen.glowcave=流明精华
 
 chroma.tieredplant.0=灵气花
 chroma.tieredplant.1=石之花

@@ -268,15 +268,16 @@ item.craftpattern=Crafting Pattern
 item.rangefinder=Range Finder
 item.gearupgrade=Integrated Gearbox Upgrade
 item.springpiston=Handheld Piston
+item.voidrailgun=Voidmetal Railgun Ammo
 
-extract.coaldust=Coal Ore Dust
-extract.irondust=Iron Ore Dust
-extract.golddust=Gold Ore Dust
-extract.reddust=Redstone Ore Dust
-extract.bluedust=Lapis Ore Dust
-extract.diadust=Diamond Ore Dust
-extract.greendust=Emerald Ore Dust
-extract.quartzdust=Nether Quartz Dust
+extract.coaldust=Powdered Coal Ore
+extract.irondust=Powdered Iron Ore
+extract.golddust=Powdered Gold Ore
+extract.reddust=Powdered Redstone Ore
+extract.bluedust=Powdered Lapis Ore
+extract.diadust=Powdered Diamond Ore
+extract.greendust=Powdered Emerald Ore
+extract.quartzdust=Powdered Nether Quartz
 
 extract.coalslurry=Coal Ore Slurry
 extract.ironslurry=Iron Ore Slurry
@@ -428,6 +429,8 @@ upgrade.tier5=Torsion Resistance Upgrade
 upgrade.afterburn=Afterburner Upgrade
 upgrade.efficiency=Resonance Stability Upgrade
 upgrade.flux=Flux Amplitude Upgrade
+upgrade.redstone=Integrated Redstone Upgrade
+upgrade.lodestone=Permanent Magnet Upgrade
 
 label.temperature=Temperature
 label.pressure=Pressure
@@ -451,7 +454,7 @@ message.emptypipe=Pipe contains no liquid.
 
 achievement.makesteel=Steelmaker
 achievement.makesteel.desc=Make a steel ingot in the blast furnace
-achievement.rcusebook=Actually doing the research
+achievement.rcusebook=Actually Doing The Research
 achievement.rcusebook.desc=Read the handbook instead of making basic mistakes and calling it a bug
 achievement.worktable=Constructive
 achievement.worktable.desc=Build the worktable
@@ -541,5 +544,7 @@ achievement.failsteel=Remedial Materials Science
 achievement.failsteel.desc=Waste lots of iron in making steel
 achievement.pulsefire=Pulse Jet Arsonist
 achievement.pulsefire.desc=Set your house on fire with a Pulse Jet Furnace
+achievement.dumbextractor=Not How It Works
+achievement.dumbextractor.desc=Completely fail to grasp power requirements and distribution
 
 tc.research_category.rotarycraft=RotaryCraft
