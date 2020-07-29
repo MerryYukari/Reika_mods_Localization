@@ -31,6 +31,7 @@
 		铁: %.0f kg/m^3; TS: %.1f %sPa; SS: %.1f %sPa
 		钢: %.0f kg/m^3; TS: %.1f %sPa; SS: %.1f %sPa
 		金: %.0f kg/m^3; TS: %.1f %sPa; SS: %.1f %sPa
+		钨: %.0f kg/m^3; TS: %.1f %sPa; SS: %.1f %sPa
 		钻石: %.0f kg/m^3; TS: %.1f %sPa; SS: %.1f %sPa
 	</material>
 	<shafts>
@@ -39,6 +40,7 @@
 		木: %dNm at %d rad/s
 		石: %dNm at %d rad/s
 		钢: %dNm at %d rad/s
+		钨: %dNm at %d rad/s
 		钻石: %dNm at %d rad/s
 		基岩: 无限
 	</shafts>

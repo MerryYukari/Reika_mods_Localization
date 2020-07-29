@@ -734,7 +734,7 @@
 			...Except when they explode trying.
 		</reveal>
 		<desc>
-			Wooden repeaters might have been a mistake
+			Wood and chroma repeaters might have been a mistake
 		</desc>
 	</blowrepeater>
 	<chargecrystal>
@@ -767,18 +767,32 @@
 	</structcheat>
 	<voidmonster>
 		<title>
-			Below the world lurks a...THING.
+			A distortion below the world
 		</title>
 		<hint>
 			Exactly what that thing is, remains unknown.
 		</hint>
 		<reveal>
-			A thing that must now be destroyed after what it has done to you.
+			Some sort of foreboding corruption of reality.
+		</reveal>
+		<desc>
+			A corruption of reality itself
+		</desc>
+	</voidmonster>
+	<voidmonsterdie>
+		<title>
+			Contact with the corruption
+		</title>
+		<hint>
+			What could possibly go wrong?
+		</hint>
+		<reveal>
+			That thing must now be destroyed after what it has done to you.
 		</reveal>
 		<desc>
 			Death by amorphous evil
 		</desc>
-	</voidmonster>
+	</voidmonsterdie>
 	<luma>
 		<title>
 			Ethereal Luma
@@ -849,6 +863,62 @@
 			Spotting disaster before it strikes
 		</desc>
 	</bypassweak>
+	<infuse>
+		<title>
+			Resourceful Experience
+		</title>
+		<hint>
+			Can one even combine such disparate things as items, liquids, and players?
+		</hint>
+		<reveal>
+			As with most things, all it took was the proper construct.
+		</reveal>
+		<desc>
+			Imbuing one energy into another
+		</desc>
+	</infuse>
+	<pylonlink>
+		<title>
+			Energy Interconnection
+		</title>
+		<hint>
+			You can connect one pylon to a network, but that still leaves all the others...
+		</hint>
+		<reveal>
+			Linking them together makes for a much larger energy pool and recharge rate.
+		</reveal>
+		<desc>
+			A way to make use of multiple pylons per color
+		</desc>
+	</pylonlink>
+	<relays>
+		<title>
+			Compact Transmission
+		</title>
+		<hint>
+			Not all constructs are amenable to normal energy transfer, being used indoors or in large numbers.
+		</hint>
+		<reveal>
+			Fortunately, they seem to be receptive to a scaled-down and more orthogonal method of conduction.
+		</reveal>
+		<desc>
+			Transmitting energy in confined spaces
+		</desc>
+	</relays>
+	<energyidea>
+		<title>
+			Refined Transmission
+		</title>
+		<hint>
+			Wood and chroma repeaters are of marginal quality.
+		</hint>
+		<reveal>
+			And these crystals surely hold the key to something better.
+		</reveal>
+		<desc>
+			Insight into lumen transmission
+		</desc>
+	</energyidea>
 	<name>
 		<title>
 			
@@ -890,5 +960,5 @@
 		<desc>
 			
 		</desc>
-	</name>v
+	</name>
 </progression>

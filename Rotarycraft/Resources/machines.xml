@@ -200,7 +200,7 @@
 	</firework>
 	<fractionator>
 		<desc>
-			The fractionator distills various items and refines them into jet fuel for use in some of the engines and machines. Jet fuel requires tar, netherrack dust, coal, blaze powder, ethanol, and magma cream. Additionally, ghast tears are used as a solvent, but are not consumed like the other items. Fuel lines connect only to the top of this machine.
+			The fractionator distills various items and refines them into jet fuel for use in some of the engines and machines. Jet fuel requires tar, netherrack dust, coal, blaze powder, dye, and magma cream. Additionally, liquid ethanol is used as a base, and ghast tears are used as a catalyst, but are not consumed like the other items. Fuel lines connect only to the top of this machine.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -1101,17 +1101,9 @@
 			The bundled signal extractor is a 16-in-1 export bus, controllable with ProjectRed-style bundled cable. This is particularly useful with computer control, as it can in the space of one block dynamically export up to 16 item types into a processing machine.
 		</desc>
 		<note>
-			
+			Each kW of power activates one additional channel
 		</note>
 	</bundledbus>
-	<name>
-		<desc>
-			
-		</desc>
-		<note>
-			
-		</note>
-	</name>
 	<name>
 		<desc>
 			

@@ -27,6 +27,7 @@ exrtile.particle=Particle Filter
 exrtile.timer=Signal Interval Timer
 exrtile.interrupt=Redstone Interrupt
 exrtile.buslatch=Parallel Bus Latch
+exrtile.blockreader=Block Reader
 
 item.projectred.transmission.wire|35.name=Luma Wire (Black)
 item.projectred.transmission.framewire|35.name=Framed Luma Wire (Black)

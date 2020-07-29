@@ -12,7 +12,8 @@ machine.eusplit=EU变压器
 machine.eucable=超导EU线缆
 machine.eubattery=EU储存电池(RBSU)
 machine.fuse=保险丝
-machine.wirelesspad=无线能源传送器
+machine.wirelesspad=无线能源传输器
+machine.precresistor=精确电阻
 
 battery.redstone=红石电池
 battery.glowstone=流光电池

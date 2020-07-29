@@ -767,18 +767,32 @@
 	</structcheat>
 	<voidmonster>
 		<title>
-			世界下层游荡着某些..."怪物".
+			在世界之下的畸变产物.
 		</title>
 		<hint>
 			至于这东西到底是什么, 没人知道.
 		</hint>
 		<reveal>
-			你现在知道这些怪物必须要加以铲除.
+			你感到这是某种"现实"的腐化.
 		</reveal>
 		<desc>
-			死于雾状的邪恶
+			现实扭曲了自身
 		</desc>
 	</voidmonster>
+		<voidmonsterdie>
+		<title>
+			与畸变的第一次接触
+		</title>
+		<hint>
+			可能要出问题?
+		</hint>
+		<reveal>
+			你被毫不留情地摧毁, 等待它的必须是同样的命运.
+		</reveal>
+		<desc>
+			死于不可捉摸的邪恶
+		</desc>
+	</voidmonsterdie>
 	<luma>
 		<title>
 			虚影光华
@@ -849,6 +863,62 @@
 			在灾难来临之前就发现它
 		</desc>
 	</bypassweak>
+	<infuse>
+		<title>
+			难得的经验
+		</title>
+		<hint>
+			能否将截然不同的东西结合到一起?
+		</hint>
+		<reveal>
+			绝大多数都行, 只要外部结构正确.
+		</reveal>
+		<desc>
+			把一种能量注入到另一个实体中
+		</desc>
+	</infuse>
+	<pylonlink>
+		<title>
+			能量交联
+		</title>
+		<hint>
+			你可以将一个魔塔接入到一个网络中, 然后把剩下那些魔塔...
+		</hint>
+		<reveal>
+			将魔塔连接到一起能形成一个更大的能量池, 也有更高的恢复速度.
+		</reveal>
+		<desc>
+			将同色的多个魔塔同时利用起来的办法
+		</desc>
+	</pylonlink>
+	<relays>
+		<title>
+			集中传输
+		</title>
+		<hint>
+			不是所有在室内或需要大范围使用的器械都能接收普通的能量传递.
+		</hint>
+		<reveal>
+			幸运的是, 它们能接受能级较低的, 以直角方式传输的能量.
+		</reveal>
+		<desc>
+			在狭小的空间中传输能量
+		</desc>
+	</relays>
+	<energyidea>
+		<title>
+			高级传输
+		</title>
+		<hint>
+			木质流明中继质量低下.
+		</hint>
+		<reveal>
+			更好的传输能量的答案就隐藏在这些水晶中.
+		</reveal>
+		<desc>
+			一点传输流明的经验
+		</desc>
+	</energyidea>
 	<name>
 		<title>
 			
@@ -890,5 +960,5 @@
 		<desc>
 			
 		</desc>
-	</name>v
+	</name>
 </progression>

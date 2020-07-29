@@ -13,6 +13,7 @@ machine.eucable=Superconductor EU Cable
 machine.eubattery=EU Storage Battery (RBSU)
 machine.fuse=Fuse
 machine.wirelesspad=Wireless Energy Transfer Pad
+machine.precresistor=Precision Resistor
 
 battery.redstone=Redstone Battery
 battery.glowstone=Lustrous Battery

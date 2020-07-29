@@ -91,6 +91,13 @@ chroma.optimizer=流明净化装置
 chroma.landmark=立体定义节点
 chroma.injector=铸件台嵌入焦点
 chroma.hoverpad=悬浮立场控制器
+chroma.playerinfuser=人体注魔台
+chroma.deathfog=生命汲取力场
+chroma.voidtrap=畸变修复焦点
+chroma.smeltery=冶金分流器
+chroma.launchpad=垂直推进面板
+chroma.toolstorage=工具收纳盒
+chroma.beestorage=基因收纳容器
 
 adjacency.black=效率提升
 adjacency.red=防御核心
@@ -216,6 +223,9 @@ chroma.spawnerbypass=刷怪笼干扰水晶
 chroma.endereye=强化末影之眼
 chroma.lightgun=照明枪
 chroma.probe=考察水晶
+chroma.telegatelock=转位水晶
+chroma.enderbucket=虚空桶
+chroma.widecollector=吸收之环
 
 chromability.reach=范围提升
 chromability.magnet=磁力
@@ -292,6 +302,10 @@ chromastruct.progresslink=见闻共享基座
 chromastruct.optimizer=流明净化方尖碑
 chromastruct.snowstruct=霜冻哨站
 chromastruct.tree_sender=流明树传输焦点
+chromastruct.playerinfusion=注魔之泉
+chromastruct.voidritual=畸变修复螺旋
+chromastruct.nethertrap=下届移位焦点
+chromastruct.launchpad=垂直推进面板
 
 crystal.cave=洞穴水晶
 crystal.lamp=水晶灯
@@ -365,11 +379,11 @@ chromacraft.desert=沙之洞穴残卷
 chromacraft.ingot=彩能合金
 chromacraft.ingot2=火山辉晶合金
 chromacraft.ingot3=共振锭
-chromacraft.ingot4=流体锭
-chromacraft.ingot5=辐射锭
+chromacraft.ingot4=流体精华锭
+chromacraft.ingot5=辐射合金锭
 chromacraft.ingot6=灵力传导锭
 chromacraft.ingot7=彩能石
-chromacraft.ingot8=空间锭
+chromacraft.ingot8=空间扭曲锭
 chromacraft.endcrystal=共振水晶
 chromacraft.spacedust=空间裂隙之尘
 chromacraft.hivoid=激化虚空之核
@@ -390,6 +404,7 @@ chromacraft.avolite=束光宝石
 chromacraft.snowstruct=霜雪碎片
 chromacraft.bedrockloot=基层精华
 chromacraft.bedrockloot2=纯净基层精华
+chromacraft.experiencegem=经验宝珠
 
 chromamod.crystalwand=水晶魔杖核心
 chromamod.firaxcap=火山辉晶杖端
@@ -401,8 +416,11 @@ item.Wand.TIEREDCAP_WATERY.cap=水石杖端
 item.Wand.TIEREDCAP_RESO.cap=末地石杖端
 item.Wand.TIEREDCAP_FOCAL.cap=彩能石杖端
 item.Wand.CRYSTALWAND.rod=水晶杖柄
+item.chroma.manipfocus.name=法杖核心: 元素操纵
 
 chromamod.comb=水晶蜂窝
+
+chromamod.voidmonster=腐化精华
 
 chromapotion.growth=生长加速
 chromapotion.voidgaze=虚空凝视
@@ -540,6 +558,8 @@ enchantment.chroma.airminer=空中采掘
 enchantment.chroma.phasing=破甲
 enchantment.chroma.bosskill=巨人打击
 enchantment.chroma.autocollect=物品吸附
+enchantment.chroma.datakeep=身份保存
+enchantment.chroma.minetime=持久效率
 
 tc.research_category.chromaticraft=缤纷纪元
 

@@ -91,6 +91,13 @@ chroma.optimizer=Lumen Clarifier
 chroma.landmark=Volume Definition Point
 chroma.injector=Casting Stand Insertion Focus
 chroma.hoverpad=Suspension Field Controller
+chroma.playerinfuser=Personal Infusion Stand
+chroma.deathfog=Vitality Depletion Field
+chroma.voidtrap=Distortion Elimination Focus
+chroma.smeltery=Smeltery Casting Distributor
+chroma.launchpad=Vertical Propulsion Panel
+chroma.toolstorage=Tool Compression Crate
+chroma.beestorage=Genetic Storage Container
 
 adjacency.black=Efficiency Augment
 adjacency.red=Protection Core
@@ -216,6 +223,9 @@ chroma.spawnerbypass=Spawner Interference Crystal
 chroma.endereye=Enhanced Ender Eye
 chroma.lightgun=Illumination Gun
 chroma.probe=Examination Crystals
+chroma.telegatelock=Transposition Crystals
+chroma.enderbucket=Voidlinked Bucket
+chroma.widecollector=Absorption Ring
 
 chromability.reach=Reach Boost
 chromability.magnet=Magnetism
@@ -292,6 +302,10 @@ chromastruct.progresslink=Knowledge Entanglement Pedestal
 chromastruct.optimizer=Lumen Purification Obelisk
 chromastruct.snowstruct=Frozen Outpost
 chromastruct.tree_sender=Lumen Tree Transmission Focus
+chromastruct.playerinfusion=Infusion Fountain
+chromastruct.voidritual=Distortion Elimination Spiral
+chromastruct.nethertrap=Nether Relocation Focus
+chromastruct.launchpad=Vertical Propulsion Panel
 
 crystal.cave=Cave Crystal
 crystal.lamp=Crystal Lamp
@@ -365,11 +379,11 @@ chromacraft.desert=Desert Fragment
 chromacraft.ingot=Chroma Alloy Ingot
 chromacraft.ingot2=Firaxite Alloy Ingot
 chromacraft.ingot3=Resonating Ingot
-chromacraft.ingot4=Fluidic Ingot
-chromacraft.ingot5=Radiative Ingot
+chromacraft.ingot4=Fluidic Essence Ingot
+chromacraft.ingot5=Radiative Alloy Ingot
 chromacraft.ingot6=Aura Conducting Ingot
 chromacraft.ingot7=Chromastone
-chromacraft.ingot8=Spatial Ingot
+chromacraft.ingot8=Spatially Warping Ingot
 chromacraft.endcrystal=Resonant Crystal
 chromacraft.spacedust=Spatial Rifting Powder
 chromacraft.hivoid=Energized Void Core
@@ -390,6 +404,7 @@ chromacraft.avolite=Avolite
 chromacraft.snowstruct=Snow Fragment
 chromacraft.bedrockloot=Proximal Essence
 chromacraft.bedrockloot2=Pure Proximal Essence
+chromacraft.experiencegem=Experience Gem
 
 chromamod.crystalwand=Crystal Wand Core
 chromamod.firaxcap=Firaxite Wand Cap
@@ -401,8 +416,11 @@ item.Wand.TIEREDCAP_WATERY.cap=Fluidstone Capped
 item.Wand.TIEREDCAP_RESO.cap=Enderstone Capped
 item.Wand.TIEREDCAP_FOCAL.cap=Chromastone capped
 item.Wand.CRYSTALWAND.rod=Crystal-Core
+item.chroma.manipfocus.name=Wand Focus: Elemental Manipulator
 
 chromamod.comb=Crystal Comb
+
+chromamod.voidmonster=Corrupted Essence
 
 chromapotion.growth=Growth Accelerant
 chromapotion.voidgaze=Void Gaze

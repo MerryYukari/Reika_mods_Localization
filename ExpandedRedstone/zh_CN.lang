@@ -27,6 +27,7 @@ exrtile.particle=粒子过滤器
 exrtile.timer=信号间隔计时器
 exrtile.interrupt=红石中断器
 exrtile.buslatch=并行总线锁
+exrtile.blockreader=方块读取器
 
 item.projectred.transmission.wire|35.name=流明线缆 (黑色)
 item.projectred.transmission.framewire|35.name=框架流明线缆 (黑色)

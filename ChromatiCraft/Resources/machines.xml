@@ -242,7 +242,7 @@
 	</fabricator>
 	<beacon>
 		<desc>
-			After an unfortunate encounter with an engine intake, you have been desperately seeking a way to protect yourself from the more hazardous situations you always seem to end up in. Recalling the enormous protective power of %s crystal energy to protect, you try building a beacon that radiates the energy into the air. As long as it stays supplied with energy - not an easy task, given the large energy expenditure - you may well be impossible to kill.
+			After an unfortunate encounter with an engine intake, you have been desperately seeking a way to protect yourself from the more hazardous situations you always seem to end up in. Recalling the enormous protective power of %s crystal energy to protect, you try building a beacon that radiates the energy into the air. As long as it stays supplied with energy - not an easy task, given the large energy expenditure - you may well be impossible to kill. Hopefully this should extend to any creatures you keep around, to avoid you having to constantly replace your pets as they wander into assorted machinery.
 		</desc>
 		<note>
 			Uses %dn^%d lumens per half-heart of damage
@@ -256,7 +256,7 @@
 		<note>
 			Enchantment base cost: %d mB per level
 			
-			Can take an already-enchanted item to discount this cost
+			Can take an already-enchanted item to discount this cost; can be placed below the table in a "normal" enchanting room to further reduce this cost
 		</note>
 	</enchanter>
 	<chromaflower>
@@ -605,7 +605,9 @@
 			Being the prudent designer you are, you have decided to split your base into multiple structures spread across the landscape. However, this created a problem: Simply getting to them becomes something of a chore. However, another idea occurs to you: You could build a link of sorts, a gate, at any number of locations and be able to link between any two points at will. As long as the purity of the link is maintained, the two gates should work in harmony, and the supremacy of this method of travel will act as an emancipation from your current commute.
 		</desc>
 		<note>
-
+			Can be toggled into private mode (purple), as well as between arrival/departure only (red/yellow).
+			
+			GUI Color Statuses: White = Available; Red = Owned by Other; Yellow = Unpowered; Magenta = No Structure; Blue = Other Dimension
 		</note>
 	</teleport>
 	<harvestplant>
@@ -726,7 +728,8 @@
 			Sharing a base with a friend is a common practice, but you have found that what you learn as you explore and experiment is less easily shared. You could of course have your partner perform the same actions as you, but they may be more interested in pulling up ores, playing bee matchmaker, or going insane by reading ancient scribbles. Or they may be interested but unable to learn, preferring to watch crops grow or to fall into lava. Either way, if you could make it such that the two - or more - of you learned in tandem, this problem would be solved.
 		</desc>
 		<note>
-			Requires that both players have matching progression at the time of linking
+			Requires that both players have similar progression at the time of linking
+			If the two players have different progression, the other will be made to match, possibly forgetting some of their progression
 			
 			Both players are still required to be involved for some progress
 		</note>
@@ -744,7 +747,7 @@
 			Despite having only recently begun using casting stands to enhance your table, you are thoroughly sick of stuffing items into them; those recipes involving shoving shards together in various combinations have proven particularly tedious. Some time ago, you designed a construct for placing items in devices; perhaps you could apply that knowledge and design something capable of being given a recipe and placing the ingredients in the stands automatically. That does not quite automate the process - you still need to place the central item, and trigger the actual crafting - but it is a start.
 		</desc>
 		<note>
-
+			Can only produce intermediate products
 		</note>
 	</injector>
 	<landmark>
@@ -757,44 +760,72 @@
 	</landmark>
 	<hoverpad>
 		<desc>
-			Having built a base with a large number of rooms spread across multiple floors, and a maze of stairs and walkways between them, you have realized that while it excels in aesthetics it suffers greatly in practicality. In an attempt to solve this, you created an access shaft allowing you to travel between any two floors. However, this too has an issue: Reliably getting between said floors, with nothing solid to walk on, is fiddly and requires the ability to fly. If you could just...suppress gravity and friction while moving through the shaft, it would be far more useful.
+			Having built a base with a large number of rooms spread across multiple floors, and a maze of stairs and walkways between them, you have realized that while it excels in aesthetics, it suffers greatly in practicality. In an attempt to solve this, you created an access shaft allowing you to travel between any two floors. However, this too has an issue: Reliably getting between said floors, with nothing solid to walk on, is fiddly and requires the ability to fly. If you could just...suppress gravity and friction while moving through the shaft, it would be far more useful.
 		</desc>
 		<note>
 
 		</note>
 	</hoverpad>
-	<name>
+	<deathfog>
 		<desc>
-
+			Below the world lurks some sort of...THING. A distortion, a corruption, of the fabric of the world itself. Spending time in proximity to it, in addition to being deeply unsettling, is actively dangerous; it seems to infect its nearby surroundings and literally suck the life out of whatever creatures happen to be near. Perhaps if you could somehow 'sample' this entity, you could find a way to capitalize on that sort of effect for your own purposes. Of course, the first thing to work out will be whether you can restrict the effect to only harming creatures you actually wish to hurt.
 		</desc>
 		<note>
 
 		</note>
-	</name>
-	<name>
+	</deathfog>
+	<voidtrap>
 		<desc>
-
+			You have finally determined a way to destroy that evil distortion, the way it has done to you so many times. And indeed, you will be turning its own nature against it, making for a healthy dose of irony. However, in order to actually initiate the whole process, you need to build and then activate a large construct, something not easily done if the thing is there and denying you the ability to linger in the area. Additionally, you will need a way to trap it within range of the construct, so that your purification process can actually act upon it. This device may be the key to both problems.
+		</desc>
+		<note>
+			Requires setup in both the overworld and whatever dimension the ritual is performed
+		</note>
+	</voidtrap>
+	<playerinfuser>
+		<desc>
+			Having found a new way to directly imbue significant quantities of chroma into shards, you wonder if you could apply that same sort of strategy with your own body. In particular, it would be useful to use this infusion to enhance your body's ability to store energy, thus allowing you to carry more around at any time. Obviously, this will require refinements to the construct, but it should not necessitate a total redesign.
 		</desc>
 		<note>
 
 		</note>
-	</name>
-	<name>
+	</playerinfuser>
+	<smelterydistributor>
 		<desc>
-
+			As you develop your tools, you have needed a large brick basin in which you can melt down various metals and then taps to pour it into various casts. That last step is where the headaches begun; the taps are stupidly slow, and the piping you have access to achieved nothing remotely resembling success. Copper/lead pipes blew up in your face; ones of stone and glass developed a hopeless mix of random crap and clogged completely. And should the metal run out, none of them are able to avoid filling a cast only partway, leaving you with six half-casted ingots you can make zero use of. @#!$ this, you need your own solution.
 		</desc>
 		<note>
-
+			Prioritizes tool casts over everything, and basins over all other casts
 		</note>
-	</name>
-	<name>
+	</smelterydistributor>
+	<launchpad>
 		<desc>
-
+			It may look nice to have a large tower or other similar elevation change in your constructions, but in practical terms traversing that difference is simply a headache. Getting down is simple enough - drop down a shaft and hope to avoid becoming a wet smear - but getting up is rather more problematic. You tried a whole array of solutions, ranging from a gem imbued with magic flower energy to a pile of slime goo to various levitation constructs to even a simple jetpack, but none of them work easily, cheaply, and quickly, without requiring you rummage through your bag of tools. As is becoming routine, innovation will be required.
 		</desc>
 		<note>
-
+			Will not fire for players who are sneaking
+			
+			Can be enhanced with a ring of liquid ender
 		</note>
-	</name>
+	</launchpad>
+	<toolstorage>
+		<desc>
+			Nearly every chest you find is likely to have some kind of tool inside, every single one with different durability or enchantments. Having raided a few dozen such structures, and obtained yet more tools from various mobs, you have 247 kinds of gold sword alone and more bronze helmets than you care to count. The usual solution of digitization would need a whole wall of storage drives just for iron pickaxes, given a 63-type limit you have never managed to exceed, and even a filing cabinet stuffed with tools rapidly exceeds capacity, not to mention taking forever to search through. Perhaps you can design something better.
+		</desc>
+		<note>
+			Storage modes:
+			
+			%s
+		</note>
+	</toolstorage>
+	<beestorage>
+		<desc>
+			The limitations of that digital storage system's ability to handle many discrete forms of items have become troublesome once again. As soon as you delved into breeding bees, trees, and butterflies, you were quickly inundated with products in every genetic combination conceivable. Not helping is the time your butterfly enclosure sprung a leak and the escapees proceeded to cross-pollinate every tree and plant in sight. Two dozen storage drives for Apple Oak pollen alone is not acceptable, but on the bright side, you have encountered a similar problem to this before, and might have something of a solution...
+		</desc>
+		<note>
+			Stores any variants of one "species format" like pollen, princesses, or larvae
+		</note>
+	</beestorage>
 	<name>
 		<desc>
 
