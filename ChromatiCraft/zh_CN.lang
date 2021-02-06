@@ -226,6 +226,7 @@ chroma.probe=考察水晶
 chroma.telegatelock=转位水晶
 chroma.enderbucket=虚空桶
 chroma.widecollector=吸收之环
+chroma.structmap=遗物分布图
 
 chromability.reach=范围提升
 chromability.magnet=磁力
@@ -540,7 +541,6 @@ chromaresearch.rawexplore=勘探
 chromaresearch.basiccraft=基础合成
 chromaresearch.runecraft=符文合成
 chromaresearch.energyexplore=能量与元素
-chromaresearch.chargeself=充能
 chromaresearch.multicraft=多方块铸件
 chromaresearch.networking=传输能量
 chromaresearch.pyloncraft=水晶魔塔构件

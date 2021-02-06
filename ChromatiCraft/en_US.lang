@@ -226,6 +226,7 @@ chroma.probe=Examination Crystals
 chroma.telegatelock=Transposition Crystals
 chroma.enderbucket=Voidlinked Bucket
 chroma.widecollector=Absorption Ring
+chroma.structmap=Artifact Distribution Map
 
 chromability.reach=Reach Boost
 chromability.magnet=Magnetism
@@ -539,8 +540,7 @@ chromaresearch.entry=Entry-Level
 chromaresearch.rawexplore=Exploration
 chromaresearch.basiccraft=Basic Crafting
 chromaresearch.runecraft=Rune Crafting
-chromaresearch.energyexplore=Energy And Elements
-chromaresearch.chargeself=Charging
+chromaresearch.energy=Energy And Elements
 chromaresearch.multicraft=Multiblock Casting
 chromaresearch.networking=Transmitting Energy
 chromaresearch.pyloncraft=Pylon Casting
